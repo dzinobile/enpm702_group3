@@ -13,7 +13,7 @@ namespace MyNamespace
         }
         void display_employees();
         
-        void add_employee();
+        //void add_employee();
 
         private:
         std::unordered_set<std::string> employees_;
