@@ -7,9 +7,11 @@ add_compile_options(-Wall -pedantic-errors)
 
 include_directories(department/include)
 # Add executable
-add_executable(department 
-    department/src/main.cpp 
-    department/src/department.cpp
+add_executable(
+department 
+department/src/main.cpp 
+department/src/department.cpp
+department/src/employee.cpp
 )
 
 # add_custom_command(TARGET lecture8 POST_BUILD
@@ -28,5 +30,5 @@ add_executable(department
 
 
 # Set C++ standard to C++17
-set_property(TARGET lecture8 PROPERTY CXX_STANDARD 17)
+set_property(TARGET department PROPERTY CXX_STANDARD 17)
 
