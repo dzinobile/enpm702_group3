@@ -2,6 +2,7 @@
 #include "employee.hpp"
 
 #include <iostream>
+#include <unordered_set>
 
 void MyNamespace::Department::display_employees() {
     for (const auto& element: employees_) {
@@ -10,12 +11,10 @@ void MyNamespace::Department::display_employees() {
     std::cout << std::endl;
 }
 
-// void MyNamespace::Department::add_employee() {
-//     auto new_employee_name = MyNamespace::Employee::return_name;
-    
-
-    
-// }
+void MyNamespace::Department::add_employee(MyNamespace::Employee new_employee) {
+    employees_.insert(new_employee.return_name());  
+        
+}
 
 
 

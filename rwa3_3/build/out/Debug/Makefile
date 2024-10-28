@@ -129,6 +129,30 @@ department/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/department.dir/build.make CMakeFiles/department.dir/build
 .PHONY : department/fast
 
+department/src/date.o: department/src/date.cpp.o
+.PHONY : department/src/date.o
+
+# target to build an object file
+department/src/date.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/department.dir/build.make CMakeFiles/department.dir/department/src/date.cpp.o
+.PHONY : department/src/date.cpp.o
+
+department/src/date.i: department/src/date.cpp.i
+.PHONY : department/src/date.i
+
+# target to preprocess a source file
+department/src/date.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/department.dir/build.make CMakeFiles/department.dir/department/src/date.cpp.i
+.PHONY : department/src/date.cpp.i
+
+department/src/date.s: department/src/date.cpp.s
+.PHONY : department/src/date.s
+
+# target to generate assembly for a file
+department/src/date.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/department.dir/build.make CMakeFiles/department.dir/department/src/date.cpp.s
+.PHONY : department/src/date.cpp.s
+
 department/src/department.o: department/src/department.cpp.o
 .PHONY : department/src/department.o
 
@@ -177,6 +201,30 @@ department/src/employee.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/department.dir/build.make CMakeFiles/department.dir/department/src/employee.cpp.s
 .PHONY : department/src/employee.cpp.s
 
+department/src/idbadge.o: department/src/idbadge.cpp.o
+.PHONY : department/src/idbadge.o
+
+# target to build an object file
+department/src/idbadge.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/department.dir/build.make CMakeFiles/department.dir/department/src/idbadge.cpp.o
+.PHONY : department/src/idbadge.cpp.o
+
+department/src/idbadge.i: department/src/idbadge.cpp.i
+.PHONY : department/src/idbadge.i
+
+# target to preprocess a source file
+department/src/idbadge.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/department.dir/build.make CMakeFiles/department.dir/department/src/idbadge.cpp.i
+.PHONY : department/src/idbadge.cpp.i
+
+department/src/idbadge.s: department/src/idbadge.cpp.s
+.PHONY : department/src/idbadge.s
+
+# target to generate assembly for a file
+department/src/idbadge.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/department.dir/build.make CMakeFiles/department.dir/department/src/idbadge.cpp.s
+.PHONY : department/src/idbadge.cpp.s
+
 department/src/main.o: department/src/main.cpp.o
 .PHONY : department/src/main.o
 
@@ -210,12 +258,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... department"
+	@echo "... department/src/date.o"
+	@echo "... department/src/date.i"
+	@echo "... department/src/date.s"
 	@echo "... department/src/department.o"
 	@echo "... department/src/department.i"
 	@echo "... department/src/department.s"
 	@echo "... department/src/employee.o"
 	@echo "... department/src/employee.i"
 	@echo "... department/src/employee.s"
+	@echo "... department/src/idbadge.o"
+	@echo "... department/src/idbadge.i"
+	@echo "... department/src/idbadge.s"
 	@echo "... department/src/main.o"
 	@echo "... department/src/main.i"
 	@echo "... department/src/main.s"

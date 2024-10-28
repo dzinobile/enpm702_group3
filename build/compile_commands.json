@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/dzinobile/Documents/UMD/Semester_1/programming/github/enpm702_group3/build",
+  "command": "/usr/bin/c++  -I/home/dzinobile/Documents/UMD/Semester_1/programming/github/enpm702_group3/rwa3_3/department/include -g -Wall -pedantic-errors -o CMakeFiles/department.dir/department/src/main.cpp.o -c /home/dzinobile/Documents/UMD/Semester_1/programming/github/enpm702_group3/rwa3_3/department/src/main.cpp",
+  "file": "/home/dzinobile/Documents/UMD/Semester_1/programming/github/enpm702_group3/rwa3_3/department/src/main.cpp"
+},
+{
+  "directory": "/home/dzinobile/Documents/UMD/Semester_1/programming/github/enpm702_group3/build",
+  "command": "/usr/bin/c++  -I/home/dzinobile/Documents/UMD/Semester_1/programming/github/enpm702_group3/rwa3_3/department/include -g -Wall -pedantic-errors -o CMakeFiles/department.dir/department/src/department.cpp.o -c /home/dzinobile/Documents/UMD/Semester_1/programming/github/enpm702_group3/rwa3_3/department/src/department.cpp",
+  "file": "/home/dzinobile/Documents/UMD/Semester_1/programming/github/enpm702_group3/rwa3_3/department/src/department.cpp"
+},
+{
+  "directory": "/home/dzinobile/Documents/UMD/Semester_1/programming/github/enpm702_group3/build",
+  "command": "/usr/bin/c++  -I/home/dzinobile/Documents/UMD/Semester_1/programming/github/enpm702_group3/rwa3_3/department/include -g -Wall -pedantic-errors -o CMakeFiles/department.dir/department/src/employee.cpp.o -c /home/dzinobile/Documents/UMD/Semester_1/programming/github/enpm702_group3/rwa3_3/department/src/employee.cpp",
+  "file": "/home/dzinobile/Documents/UMD/Semester_1/programming/github/enpm702_group3/rwa3_3/department/src/employee.cpp"
+},
+{
+  "directory": "/home/dzinobile/Documents/UMD/Semester_1/programming/github/enpm702_group3/build",
+  "command": "/usr/bin/c++  -I/home/dzinobile/Documents/UMD/Semester_1/programming/github/enpm702_group3/rwa3_3/department/include -g -Wall -pedantic-errors -o CMakeFiles/department.dir/department/src/date.cpp.o -c /home/dzinobile/Documents/UMD/Semester_1/programming/github/enpm702_group3/rwa3_3/department/src/date.cpp",
+  "file": "/home/dzinobile/Documents/UMD/Semester_1/programming/github/enpm702_group3/rwa3_3/department/src/date.cpp"
+}
+]

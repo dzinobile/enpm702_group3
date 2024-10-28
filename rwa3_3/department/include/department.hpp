@@ -13,9 +13,9 @@ namespace MyNamespace
         }
         void display_employees();
         
-        //void add_employee();
+        void add_employee(MyNamespace::Employee new_employee);
 
         private:
         std::unordered_set<std::string> employees_;
-    };
+    };// class Department
 } // namespace MyNamespace
