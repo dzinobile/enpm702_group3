@@ -44,8 +44,9 @@ namespace MyNamespace
    public:
    Developer(const std::string& name, const int& salary, const IDBadge& idbadge, std::unordered_set<std::string>& programming_languages, std::string& current_project): Employee(name, salary, idbadge), programming_languages_{programming_languages}, current_project_{current_project} {}
    void write_code(const std::string& language);
-   void add_programming_langauge(const std::string&);
-   void set_current_project(const std::string&);
+   void add_programming_language(const std::string);
+   void set_current_project(const std::string);
+   void return_languages();
 
 
    private:

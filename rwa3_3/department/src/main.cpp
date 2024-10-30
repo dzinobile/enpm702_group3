@@ -17,12 +17,13 @@ int main() {
    std::unordered_set<std::string> jim_languages{"cpp", "python"};
    std::unordered_set<std::string> pam_languages{"java", "python"};
    std::string jim_project{"project1"};
-   std::string pam_project{"project1"};
+   std::string pam_project{"project2"};
 
 
    MyNamespace::Date monday(day, month, year);
    MyNamespace::IDBadge badge1("5555", monday);
    MyNamespace::IDBadge badge2("6666", monday);
+
    
     MyNamespace::Developer employee_1("Jim", 500, badge1, jim_languages, jim_project);
     MyNamespace::Developer employee_2("Pam", 500, badge2, pam_languages, pam_project);
@@ -44,7 +45,13 @@ int main() {
 
     badge1.display_badge_info();
 
+    employee_1.add_programming_language("java");
 
+    employee_1.return_languages();
+
+    employee_1.set_current_project(pam_project);
+
+  
     
 
 

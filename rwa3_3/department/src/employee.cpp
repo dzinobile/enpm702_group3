@@ -28,10 +28,18 @@ void MyNamespace::Developer::write_code(const std::string& language){
 
 }
 
-void MyNamespace::Developer::add_programming_langauge(const std::string&) {
+void MyNamespace::Developer::add_programming_language(const std::string new_language) {
+    programming_languages_.insert(new_language);
 
 }
 
-void MyNamespace::Developer::set_current_project(const std::string&) {
+void MyNamespace::Developer::set_current_project(const std::string new_project) {
+    current_project_ = new_project;
 
+}
+
+void MyNamespace::Developer::return_languages() {
+    for (const std::string& element : programming_languages_) {
+        std::cout << element << '\n';
+    }
 }
