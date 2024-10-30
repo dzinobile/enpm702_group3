@@ -9,68 +9,62 @@ skinparam class {
 
 
 class Department {
-    -employees_: std::set
-    +display_employees()
-    +add_employee()
+    -employees_: std::unordered_set
+    +display_employees(): void
+    +add_employee(Employee): void
 }
 
 class Date {
-    -day_:unsigned short
-    -month_:unsigned short
-    -year_:unsigned short
-    +is_valid_date(unsigned short day, unsigned short month, unsigned short year) bool const
-    +get_days_in_month(unsigned short month, unsigned short year) unsigned short const
-    +is_leap_year(unsigned short year) bool
-    +Date(unsigned short d, unsigned short m, unsigned short y)
-    +print_date() void const
+    -day_: ushort
+    -month_: ushort
+    -year_: ushort
+    +is_valid_date(): bool
+    +get_days_in_month(): ushort
+    +is_leap_year(): bool
+    +print_date(): void
 
 }
 
 class IDBadge{
-    -badge_number_:std::string
-    -issue_date:Date 
-    +void display_badge_info()
+    -badge_number_: std::string
+    -issue_date: Date 
+    +display_badge_info(): void
 }
 
 class Manager {
-    -team_size_: int
-    -number_of_projects_: int
-    +perform_task() OVERRIDDEN
-    +attend_meeting() OVERRIDDEN
-    +recieve_salary() OVERRIDDEN
-    +void conduct_performance_review()
+    -team_size_: ushort
+    -number_of_projects_: ushort
+    +conduct_performance_review(Developer): void
     
 
 }
 
 class Developer{
-    -programming_languages_:std::unordered_set
-    -current_project_:std::string
-    +perform_task() OVERRIDDEN
-    +attend_meeting() OVERRIDDEN
-    +recieve_salary() OVERRIDDEN
-    +void write_code(const std::string&)
-    +void add_programming_language(const std::string&)
-    +void set_current_project(const std::string&)
+    -programming_languages_: std::unordered_set
+    -current_project_: std::string
+    +write_code(const std::string&): void
+    +add_programming_language(const std::string&): void
+    +void set_current_project(const std::string&): void
 }
 
 'Employee class
-class Employee {
-    #name_:std::string
+abstract class Employee {
+    #name_: std::string
     #salary_: int
-    #IDBadge
-    +perform_task() PURE VIRTUAL
-    +attend_meeting() VIRTUAL
-    +recieve_salary() VIRTUAL
+    #idbadge_: IDBadge
+    +{abstract}perform_task() = 0: void
+    +{abstract}attend_meeting(): void
+    +{abstract}recieve_salary(): void
+    +{abstract}return_name(): void
 
 }
 
 'Relationships
-Department "1" o-- "1..*" Employee : manages <<shared>>
-Employee "1" o-- "1.." IDBadge : is assigned <<shared>>
-IDBadge "1" O-- "1.." Date : issued on <<shared>>
-Employee <|-- Developer: <<public>>
-Employee <|-- Manager: <<public>>
+Department  "0..1" o-- "*" Employee : employs > 
+Employee  *-- "1" IDBadge : has <<unique>> >
+IDBadge  *-- "1" Date : has_issue_date<<value>> >
+Employee <|-- Developer: +public
+Employee <|-- Manager: +public
 
 
 @enduml
