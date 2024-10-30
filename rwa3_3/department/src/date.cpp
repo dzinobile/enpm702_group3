@@ -20,6 +20,7 @@ const ushort Date::get_days_in_month()
 {
     switch (month_)
     {
+        
     case 1:
         return 31;
         break;
@@ -63,6 +64,9 @@ const ushort Date::get_days_in_month()
     case 12:
         return 31;
         break;
+
+        default:
+        return 0; //in the case of an invalid month
     }
 }
 
