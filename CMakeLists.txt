@@ -5,15 +5,15 @@ project(lecture8 VERSION 0.1.0)
 # Compilation flags
 add_compile_options(-Wall -pedantic-errors)
 
-include_directories(department/include)
+include_directories(rwa3_3/department/include)
 # Add executable
 add_executable(
 department 
-department/src/main.cpp 
-department/src/department.cpp
-department/src/employee.cpp
-department/src/date.cpp
-department/src/idbadge.cpp
+rwa3_3/department/src/main.cpp
+rwa3_3/department/src/department.cpp
+rwa3_3/department/src/employee.cpp
+rwa3_3/department/src/date.cpp
+rwa3_3/department/src/idbadge.cpp
 )
 
 # add_custom_command(TARGET lecture8 POST_BUILD
