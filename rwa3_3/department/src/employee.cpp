@@ -3,19 +3,19 @@
 #include <unordered_set>
 #include <string>
 
-void Employee::perform_task()
+void Employee::perform_task() // Must be Pure virtual (overriden in derived classes)
 {
-    std::cout << name_ << " performing task\n";
+    std::cout << "Employee:" << name_ << " performing task\n";
 }
 
-void Employee::attend_meeting()
+void Employee::attend_meeting() // Must beVirtual (overriden in derived classes)
 {
-    std::cout << name_ << " attending meeting\n";
+    std::cout << "Employee:" << name_ << ":" << " attending meeting\n";
 }
 
-void Employee::recieve_salary()
+void Employee::recieve_salary() // Must be Virtual (overriden in derived classes)
 {
-    std::cout << name_ << " recieving salary\n";
+    std::cout << "Employee:" << name_ << ":" << " recieving salary\n";
 }
 
 std::string Employee::return_name()
@@ -25,12 +25,12 @@ std::string Employee::return_name()
 
 void Manager::conduct_performance_review()
 {
-    std::cout << name_ << " conducting performance review\n";
+    std::cout << "Manager:" << name_ << ":" << " conducting performance review\n";
 }
 
 void Developer::write_code(const std::string &language)
 {
-    std::cout << name_ << " writing code in " << language << '\n';
+    std::cout << "Developer:" << name_ << ":" << " writing code in " << language << '\n';
 }
 
 void Developer::add_programming_language(const std::string new_language)
@@ -45,6 +45,7 @@ void Developer::set_current_project(const std::string new_project)
 
 void Developer::return_languages()
 {
+    std::cout << "Developer:" << name_ << ":" << "programming languages: " << '\n';
     for (const std::string &element : programming_languages_)
     {
         std::cout << element << '\n';

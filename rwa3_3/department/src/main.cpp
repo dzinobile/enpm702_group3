@@ -48,4 +48,5 @@ int main()
     employee_1.return_languages();
 
     employee_1.set_current_project(pam_project);
+    employee_1.write_code("cpp");
 }
