@@ -67,5 +67,6 @@
         "typeindex": "cpp",
         "typeinfo": "cpp"
     },
-    "cmake.sourceDirectory": "/home/dzinobile/Documents/UMD/Semester_1/programming/github/enpm702_group3/rwa3_3"
+    "cmake.sourceDirectory": "/home/vboxuser/github/semester_1/enpm702_group3",
+    "cmake.options.statusBarVisibility": "visible"
 }
