@@ -7,44 +7,47 @@ skinparam class {
     BorderColor Black
 }
 
-
 class Department {
     -employees_: std::unordered_set
+    +Department(): void
     +display_employees(): void
     +add_employee(Employee): void
 }
 
 class Date {
-    -day_: ushort
-    -month_: ushort
-    -year_: ushort
+    -day_: unsigned short
+    -month_: unsigned short
+    -year_: unsigned short
+    +Date(unsigned short day, unsigned short month, unsigned short year): void
     +is_valid_date(): bool
-    +get_days_in_month(): ushort
+    +get_days_in_month(): unsigned short
     +is_leap_year(): bool
     +print_date(): void
-
 }
 
-class IDBadge{
+class IDBadge {
     -badge_number_: std::string
     -issue_date: Date 
+    +IDBadge(const std::string& badge_number, const Date& issue_date): void
     +display_badge_info(): void
 }
 
 class Manager {
-    -team_size_: ushort
-    -number_of_projects_: ushort
+    -team_size_: unsigned short
+    -number_of_projects_: unsigned short
+    +Manager(const std::string& name, int salary, const IDBadge& idbadge, unsigned short team_size, unsigned short number_of_projects): void
     +conduct_performance_review(Developer): void
-    
-
+    +perform_task(): void override
 }
 
-class Developer{
+class Developer {
     -programming_languages_: std::unordered_set
     -current_project_: std::string
+    +Developer(const std::string& name, int salary, const IDBadge& idbadge): void
     +write_code(const std::string&): void
     +add_programming_language(const std::string&): void
-    +void set_current_project(const std::string&): void
+    +set_current_project(const std::string&): void
+    +perform_task(): void override
 }
 
 'Employee class
@@ -52,19 +55,18 @@ abstract class Employee {
     #name_: std::string
     #salary_: int
     #idbadge_: IDBadge
-    +{abstract}perform_task() = 0: void
-    +{abstract}attend_meeting(): void
-    +{abstract}recieve_salary(): void
-    +{abstract}return_name(): void
-
+    +Employee(const std::string& name, int salary, const IDBadge& idbadge): void
+    +virtual perform_task() = 0: void
+    +attend_meeting(): void
+    +recieve_salary(): void
+    +return_name(): void
 }
 
 'Relationships
-Department  "0..1" o-- "*" Employee : employs > 
-Employee  *-- "1" IDBadge : has <<unique>> >
-IDBadge  *-- "1" Date : has_issue_date<<value>> >
+Department "0..1" o-- "*" Employee : employs > 
+Employee *-- "1" IDBadge : has <<unique>> >
+IDBadge *-- "1" Date : has_issue_date<<value>> >
 Employee <|-- Developer: +public
 Employee <|-- Manager: +public
-
 
 @enduml
