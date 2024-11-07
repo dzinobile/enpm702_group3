@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/build",
+  "command": "/usr/bin/g++  -I/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/department/include -g -Wall -pedantic-errors -o CMakeFiles/department.dir/department/src/main.cpp.o -c /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/department/src/main.cpp",
+  "file": "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/department/src/main.cpp"
+},
+{
+  "directory": "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/build",
+  "command": "/usr/bin/g++  -I/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/department/include -g -Wall -pedantic-errors -o CMakeFiles/department.dir/department/src/department.cpp.o -c /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/department/src/department.cpp",
+  "file": "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/department/src/department.cpp"
+},
+{
+  "directory": "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/build",
+  "command": "/usr/bin/g++  -I/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/department/include -g -Wall -pedantic-errors -o CMakeFiles/department.dir/department/src/employee.cpp.o -c /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/department/src/employee.cpp",
+  "file": "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/department/src/employee.cpp"
+},
+{
+  "directory": "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/build",
+  "command": "/usr/bin/g++  -I/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/department/include -g -Wall -pedantic-errors -o CMakeFiles/department.dir/department/src/date.cpp.o -c /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/department/src/date.cpp",
+  "file": "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/department/src/date.cpp"
+},
+{
+  "directory": "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/build",
+  "command": "/usr/bin/g++  -I/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/department/include -g -Wall -pedantic-errors -o CMakeFiles/department.dir/department/src/idbadge.cpp.o -c /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/department/src/idbadge.cpp",
+  "file": "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/department/src/idbadge.cpp"
+},
+{
+  "directory": "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/build",
+  "command": "/usr/bin/g++  -I/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/department/include -g -Wall -pedantic-errors -o CMakeFiles/department.dir/department/src/manager.cpp.o -c /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/department/src/manager.cpp",
+  "file": "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/department/src/manager.cpp"
+},
+{
+  "directory": "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/build",
+  "command": "/usr/bin/g++  -I/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/department/include -g -Wall -pedantic-errors -o CMakeFiles/department.dir/department/src/developer.cpp.o -c /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/department/src/developer.cpp",
+  "file": "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/department/src/developer.cpp"
+}
+]

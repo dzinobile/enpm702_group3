@@ -29,6 +29,7 @@ public:
     virtual void attend_meeting();
     virtual void receive_salary();
     void return_name() const;
+    void return_badge_info() const;
 
 protected:
     std::string name_;

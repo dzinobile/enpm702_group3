@@ -14,6 +14,8 @@ department/src/department.cpp
 department/src/employee.cpp
 department/src/date.cpp
 department/src/idbadge.cpp
+department/src/manager.cpp
+department/src/developer.cpp
 )
 
 # add_custom_command(TARGET lecture8 POST_BUILD

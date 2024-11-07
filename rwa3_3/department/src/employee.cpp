@@ -17,3 +17,7 @@ void Employee::receive_salary() {
 void Employee::return_name() const {
     std::cout << "Employee name: " << name_ << std::endl;
 }
+
+void Employee::return_badge_info() const {
+    idbadge_.display_badge_info();
+}

@@ -37,7 +37,9 @@ class Manager {
     -number_of_projects_: unsigned short
     +Manager(const std::string& name, int salary, const IDBadge& idbadge, unsigned short team_size, unsigned short number_of_projects): void
     +conduct_performance_review(Developer): void
-    +perform_task(): void override
+    +<<override>> perform_task(): void
+    +<<override>> attend_meeting(): void
+    +<<override>> recieve_salary(): void
 }
 
 class Developer {
@@ -47,19 +49,22 @@ class Developer {
     +write_code(const std::string&): void
     +add_programming_language(const std::string&): void
     +set_current_project(const std::string&): void
-    +perform_task(): void override
+    +<<override>> perform_task(): void
+    +<<override>> attend_meeting(): void
+    +<<override>> recieve_salary(): void
 }
 
-'Employee class
+
 abstract class Employee {
     #name_: std::string
     #salary_: int
     #idbadge_: IDBadge
     +Employee(const std::string& name, int salary, const IDBadge& idbadge): void
     +virtual perform_task() = 0: void
-    +attend_meeting(): void
-    +recieve_salary(): void
+    +virtual attend_meeting(): void
+    +virtual receive_salary(): void
     +return_name(): void
+    +return_badge_info(): void
 }
 
 'Relationships

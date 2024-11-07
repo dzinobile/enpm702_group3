@@ -10,6 +10,6 @@ void Department::add_employee(const std::shared_ptr<Employee>& employee) {
 void Department::display_employees() const {
     for (const auto& employee : employees_) {
         employee->return_name();
-        employee->idbadge_.display_badge_info();
+        employee->return_badge_info();
     }
 }
