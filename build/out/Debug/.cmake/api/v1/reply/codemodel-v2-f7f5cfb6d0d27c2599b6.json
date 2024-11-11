@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "lecture8",
+					"name" : "enpm702_rwa3_group3",
 					"targetIndexes" : 
 					[
 						0
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "department::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-department-Debug-6790ffcbfcf96ec0e337.json",
+					"jsonFile" : "target-department-Debug-d1b70aaf2111f0086a90.json",
 					"name" : "department",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/khuzema/Desktop/Programming Intro 702/group3/enpm702_group3/build/out/Debug",
-		"source" : "/home/khuzema/Desktop/Programming Intro 702/group3/enpm702_group3"
+		"build" : "/home/khuzema/Desktop/Programming 702/group3/enpm702_group3/build/out/Debug",
+		"source" : "/home/khuzema/Desktop/Programming 702/group3/enpm702_group3"
 	},
 	"version" : 
 	{

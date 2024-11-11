@@ -1,103 +1,21 @@
-#include <iostream>
+/// ENPM702 Assignment - 3
+/// Authors: Pritom Gomes, Daniel Zinobile and Khuzema Habib
+
 #include "date.hpp"
 
-using ushort = unsigned short;
-
-bool Date::is_valid_date()
-{
-    if (day_ <= this->get_days_in_month())
-    {
-        return true;
-    }
-
-    else
-    {
-        return false;
-    }
+bool Date::is_valid_date() const {
+    return day_ > 0 && day_ <= get_days_in_month() && month_ > 0 && month_ <= 12;
 }
 
-const ushort Date::get_days_in_month()
-{
-    switch (month_)
-    {
-        
-    case 1:
-        return 31;
-        break;
-    case 2:
-        if (this->is_leap_year() == true)
-        {
-            return 29;
-        }
-        else
-        {
-            return 28;
-        }
-        break;
-    case 3:
-        return 31;
-        break;
-    case 4:
-        return 30;
-        break;
-    case 5:
-        return 31;
-        break;
-    case 6:
-        return 30;
-        break;
-    case 7:
-        return 31;
-        break;
-    case 8:
-        return 31;
-        break;
-    case 9:
-        return 30;
-        break;
-    case 10:
-        return 31;
-        break;
-    case 11:
-        return 30;
-        break;
-    case 12:
-        return 31;
-        break;
-
-        default:
-        return 0; //in the case of an invalid month
-    }
+bool Date::is_leap_year() const {
+    return (year_ % 4 == 0 && year_ % 100 != 0) || (year_ % 400 == 0);
 }
 
-bool Date::is_leap_year()
-{
-    int mod = year_ % 4;
-    if (mod == 0)
-    {
-        return true;
-    }
-    else
-    {
-        return false;
-    }
+unsigned short Date::get_days_in_month() const {
+    static const unsigned short days_in_month[] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+    return (month_ == 2 && is_leap_year()) ? 29 : days_in_month[month_ - 1];
 }
 
-const void Date::print_date()
-{
-}
-
-const ushort Date::return_day()
-{
-    return day_;
-}
-
-const ushort Date::return_month()
-{
-    return month_;
-}
-
-const ushort Date::return_year()
-{
-    return year_;
+void Date::print_date() const {
+    std::cout << day_ << "/" << month_ << "/" << year_ << std::endl;
 }

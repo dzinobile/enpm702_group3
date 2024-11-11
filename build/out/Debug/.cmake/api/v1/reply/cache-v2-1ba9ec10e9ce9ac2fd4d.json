@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/khuzema/Desktop/Programming Intro 702/group3/enpm702_group3/build/out/Debug"
+			"value" : "/home/khuzema/Desktop/Programming 702/group3/enpm702_group3/build/out/Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -595,7 +595,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/khuzema/Desktop/Programming Intro 702/group3/enpm702_group3"
+			"value" : "/home/khuzema/Desktop/Programming 702/group3/enpm702_group3"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -607,7 +607,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/khuzema/Desktop/Programming Intro 702/group3/enpm702_group3/build/install/Debug"
+			"value" : "/home/khuzema/Desktop/Programming 702/group3/enpm702_group3/build/install/Debug"
 		},
 		{
 			"name" : "CMAKE_INSTALL_SO_NO_EXE",
@@ -839,7 +839,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "lecture8"
+			"value" : "enpm702_rwa3_group3"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION",
@@ -1182,7 +1182,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "lecture8_BINARY_DIR",
+			"name" : "enpm702_rwa3_group3_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1191,10 +1191,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/khuzema/Desktop/Programming Intro 702/group3/enpm702_group3/build/out/Debug"
+			"value" : "/home/khuzema/Desktop/Programming 702/group3/enpm702_group3/build/out/Debug"
 		},
 		{
-			"name" : "lecture8_IS_TOP_LEVEL",
+			"name" : "enpm702_rwa3_group3_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1206,7 +1206,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "lecture8_SOURCE_DIR",
+			"name" : "enpm702_rwa3_group3_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1215,7 +1215,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/khuzema/Desktop/Programming Intro 702/group3/enpm702_group3"
+			"value" : "/home/khuzema/Desktop/Programming 702/group3/enpm702_group3"
 		}
 	],
 	"kind" : "cache",

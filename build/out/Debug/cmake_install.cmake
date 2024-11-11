@@ -1,8 +1,8 @@
-# Install script for directory: /home/khuzema/Desktop/Programming Intro 702/group3/enpm702_group3
+# Install script for directory: /home/khuzema/Desktop/Programming 702/group3/enpm702_group3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/khuzema/Desktop/Programming Intro 702/group3/enpm702_group3/build/install/Debug")
+  set(CMAKE_INSTALL_PREFIX "/home/khuzema/Desktop/Programming 702/group3/enpm702_group3/build/install/Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/khuzema/Desktop/Programming Intro 702/group3/enpm702_group3/build/out/Debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/khuzema/Desktop/Programming 702/group3/enpm702_group3/build/out/Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
