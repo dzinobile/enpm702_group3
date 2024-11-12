@@ -18,8 +18,23 @@
 
 #include <iostream>
 
+/**
+ * @brief 
+ * 
+ */
 class Date {
+    /**
+     * @brief Date object is initiated under the 
+     * 
+     */
 public:
+/**
+ * @brief Construct a new Date object
+ * 
+ * @param day 
+ * @param month 
+ * @param year 
+ */
     Date(unsigned short day, unsigned short month, unsigned short year)
         : day_(day), month_(month), year_(year) {}
 
@@ -27,7 +42,14 @@ public:
     bool is_leap_year() const;
     unsigned short get_days_in_month() const;
     void print_date() const;
-
+/**
+ * @brief 
+ * 
+ */
 private:
+/**
+ * @brief 
+ * 
+ */
     unsigned short day_, month_, year_;
 };

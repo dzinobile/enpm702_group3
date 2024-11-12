@@ -1,3 +1,0 @@
-/home/khuzema/Desktop/Programming 702/group3/enpm702_group3/build/out/Debug/CMakeFiles/department.dir
-/home/khuzema/Desktop/Programming 702/group3/enpm702_group3/build/out/Debug/CMakeFiles/edit_cache.dir
-/home/khuzema/Desktop/Programming 702/group3/enpm702_group3/build/out/Debug/CMakeFiles/rebuild_cache.dir

@@ -18,19 +18,63 @@
 
 #include <unordered_set>
 #include "employee.hpp"
-
+/**
+ * @brief 
+ * 
+ */
 class Developer : public Employee {
 public:
+/**
+ * @brief Construct a new Developer object
+ * 
+ * @param name 
+ * @param salary 
+ * @param idbadge 
+ */
     Developer(const std::string& name, int salary, const IDBadge& idbadge);
-
+/**
+ * @brief 
+ * 
+ */
     void perform_task() override;
+    /**
+     * @brief 
+     * 
+     */
     void attend_meeting() override;
+    /**
+     * @brief 
+     * 
+     */
     void receive_salary() override;
+    /**
+     * @brief 
+     * 
+     * @param language 
+     */
     void write_code(const std::string& language);
+    /**
+     * @brief 
+     * 
+     * @param language 
+     */
     void add_programming_language(const std::string& language);
+    /**
+     * @brief Set the current project object
+     * 
+     * @param project 
+     */
     void set_current_project(const std::string& project);
 
 private:
+/**
+ * @brief 
+ * 
+ */
     std::unordered_set<std::string> programming_languages_;
+    /**
+     * @brief 
+     * 
+     */
     std::string current_project_;
 };

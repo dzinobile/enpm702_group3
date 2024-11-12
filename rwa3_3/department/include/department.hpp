@@ -20,12 +20,28 @@
 #include <unordered_set>
 #include <memory>
 #include "employee.hpp"
-
+/**
+ * @brief 
+ * 
+ */
 class Department {
 public:
+/**
+ * @brief 
+ * 
+ * @param employee 
+ */
     void add_employee(const std::shared_ptr<Employee>& employee);
+    /**
+     * @brief 
+     * 
+     */
     void display_employees() const;
 
 private:
+/**
+ * @brief 
+ * 
+ */
     std::unordered_set<std::shared_ptr<Employee>> employees_;
 };

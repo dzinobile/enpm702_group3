@@ -18,17 +18,52 @@
 
 #include "employee.hpp"
 #include "developer.hpp"
-
+/**
+ * @brief 
+ * 
+ */
 class Manager : public Employee {
+    /**
+     * @brief 
+     * 
+     */
 public:
+/**
+ * @brief Construct a new Manager object
+ * 
+ * @param name 
+ * @param salary 
+ * @param idbadge 
+ * @param team_size 
+ * @param number_of_projects 
+ */
     Manager(const std::string& name, int salary, const IDBadge& idbadge,
             unsigned short team_size, unsigned short number_of_projects);
-
+/**
+ * @brief 
+ * 
+ */
     void perform_task() override;
+    /**
+     * @brief 
+     * 
+     */
     void attend_meeting() override;
+    /**
+     * @brief 
+     * 
+     */
     void receive_salary() override;
+    /**
+     * @brief 
+     * 
+     * @param developer 
+     */
     void conduct_performance_review(Developer& developer);
-
+/**
+ * @brief 
+ * 
+ */
 private:
     unsigned short team_size_;
     unsigned short number_of_projects_;

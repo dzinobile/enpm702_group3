@@ -22,13 +22,37 @@
 #include <string>
 #include "date.hpp"
 
+/**
+ * @brief 
+ * 
+ */
 class IDBadge {
+    /**
+     * @brief 
+     * 
+     */
 public:
+/**
+ * @brief Construct a new IDBadge object
+ * 
+ * @param badge_number 
+ * @param issue_date 
+ */
     IDBadge(const std::string& badge_number, const Date& issue_date);
-
+/**
+ * @brief 
+ * 
+ */
     void display_badge_info() const;
-
+/**
+ * @brief 
+ * 
+ */
 private:
     std::string badge_number_;
+    /**
+     * @brief 
+     * 
+     */
     Date issue_date_;
 };

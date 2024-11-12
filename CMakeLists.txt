@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20.0)
-project(enpm702_rwa3_group3 VERSION 0.1.0)
+project(rwa3 VERSION 0.1.0)
 
 
 # Compilation flags
@@ -14,6 +14,10 @@ rwa3_3/department/src/department.cpp
 rwa3_3/department/src/employee.cpp
 rwa3_3/department/src/date.cpp
 rwa3_3/department/src/idbadge.cpp
+rwa3_3/department/src/manager.cpp
+rwa3_3/department/src/developer.cpp
+
+
 )
 
 # add_custom_command(TARGET lecture8 POST_BUILD
