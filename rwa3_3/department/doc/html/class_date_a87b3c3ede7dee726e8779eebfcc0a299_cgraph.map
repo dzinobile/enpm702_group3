@@ -1,0 +1,6 @@
+<map id="Date::Date" name="Date::Date">
+<area shape="rect" id="node1" title="Public Attributes: Date Object, Valid Date Method, Leap Year Method, Get Days in the Month Method,..." alt="" coords="5,5,97,32"/>
+<area shape="rect" id="node2" href="$class_date.html#a94435332df30a79621420a74610694f0" title="Check if Date is Valid." alt="" coords="145,5,292,32"/>
+<area shape="rect" id="node3" href="$class_date.html#a51c23aaa97beb5656fefa1e92b1d0e47" title="Get the days in month object." alt="" coords="340,5,528,32"/>
+<area shape="rect" id="node4" href="$class_date.html#a22f86a623c0778aaf27644d446204285" title="Check if it is a Leap Year." alt="" coords="576,5,719,32"/>
+</map>

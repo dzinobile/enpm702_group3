@@ -1,4 +1,4 @@
-# Install script for directory: /home/dzinobile/Documents/UMD/Semester_1/programming/github/enpm702_group3/rwa3_3
+# Install script for directory: /home/khuzema/Desktop/Programming 702/group3/enpm702_group3/rwa3_3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/dzinobile/Documents/UMD/Semester_1/programming/github/enpm702_group3/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/khuzema/Desktop/Programming 702/group3/enpm702_group3/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

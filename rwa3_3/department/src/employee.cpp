@@ -3,26 +3,46 @@
 
 #include "employee.hpp"
 #include <iostream>
-
-Employee::Employee(const std::string& name, int salary, const IDBadge& idbadge)
+/**
+ * @brief Construct a new Employee:: Employee object
+ *
+ * @param name
+ * @param salary
+ * @param idbadge
+ */
+Employee::Employee(const std::string &name, int salary, const IDBadge &idbadge)
     : name_(name), salary_(salary), idbadge_(idbadge) {}
-
-void Employee::attend_meeting() {
+/**
+ * @brief Attend Meeting derived from Employee Class
+ *
+ */
+void Employee::attend_meeting()
+{
     std::cout << "Employee: attend_meeting called" << std::endl;
 }
-
-void Employee::receive_salary() {
+/**
+ * @brief Recieve Salary derived from Employee Class
+ *
+ */
+void Employee::receive_salary()
+{
     std::cout << "Employee: receive_salary called" << std::endl;
 }
 
-// void Employee::return_name_() const {
-//     std::cout << "Employee name: " << name_ << std::endl;
-// }
-
-void Employee::return_badge_info() const {
+/**
+ * @brief Return Badge Info derived from Employee Class
+ *
+ */
+void Employee::return_badge_info() const
+{
     idbadge_.display_badge_info();
 }
-
-std::string Employee::return_name() const{
+/**
+ * @brief Return Name derived from Employee Class
+ *
+ * @return std::string
+ */
+std::string Employee::return_name() const
+{
     return name_;
 }
