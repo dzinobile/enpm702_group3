@@ -15,14 +15,14 @@ void Employee::receive_salary() {
     std::cout << "Employee: receive_salary called" << std::endl;
 }
 
-void Employee::return_name() const {
-    std::cout << "Employee name: " << name_ << std::endl;
-}
+// void Employee::return_name_() const {
+//     std::cout << "Employee name: " << name_ << std::endl;
+// }
 
 void Employee::return_badge_info() const {
     idbadge_.display_badge_info();
 }
 
-std::string Employee::return_name_string() const{
+std::string Employee::return_name() const{
     return name_;
 }

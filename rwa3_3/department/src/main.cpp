@@ -23,6 +23,8 @@ int main() {
     developer->add_programming_language("Python");
     developer->add_programming_language("Python");
     developer->set_current_project("ENPM702 RWA3");
+    developer->write_code("Python");
+    developer->write_code("Java");
 
     std::vector<std::shared_ptr<Employee>> employees = { manager, developer };
     for (const auto& employee : employees) {

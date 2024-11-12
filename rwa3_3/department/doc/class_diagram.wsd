@@ -63,7 +63,7 @@ abstract class Employee {
     +virtual perform_task() = 0: void
     +virtual attend_meeting(): void
     +virtual receive_salary(): void
-    +return_name(): void
+    +return_name(): std::string
     +return_badge_info(): void
 }
 

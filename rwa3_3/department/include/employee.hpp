@@ -29,9 +29,9 @@ public:
     virtual void perform_task() = 0;
     virtual void attend_meeting();
     virtual void receive_salary();
-    void return_name() const;
+    //void return_name() const;
     void return_badge_info() const;
-    std::string return_name_string() const;
+    std::string return_name() const;
 
 protected:
     std::string name_;

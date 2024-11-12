@@ -21,5 +21,5 @@ void Manager::receive_salary() {
 }
 
 void Manager::conduct_performance_review(std::shared_ptr<Developer> developer) {
-    std::cout << "Manager " << name_ << ": conducting performance review of " << developer->return_name_string()<< std::endl;
+    std::cout << "Manager " << name_ << ": conducting performance review of " << developer->return_name()<< std::endl;
 }
