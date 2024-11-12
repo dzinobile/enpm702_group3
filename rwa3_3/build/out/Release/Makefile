@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vboxuser/github/semester_1/enpm702_group3/rwa3_3
+CMAKE_SOURCE_DIR = /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vboxuser/github/semester_1/enpm702_group3/rwa3_3/build/out/Release
+CMAKE_BINARY_DIR = /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/build/out/Release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/github/semester_1/enpm702_group3/rwa3_3/build/out/Release/CMakeFiles /home/vboxuser/github/semester_1/enpm702_group3/rwa3_3/build/out/Release//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/build/out/Release/CMakeFiles /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/build/out/Release//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/github/semester_1/enpm702_group3/rwa3_3/build/out/Release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/build/out/Release/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -177,6 +177,30 @@ department/src/department.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/department.dir/build.make CMakeFiles/department.dir/department/src/department.cpp.s
 .PHONY : department/src/department.cpp.s
 
+department/src/developer.o: department/src/developer.cpp.o
+.PHONY : department/src/developer.o
+
+# target to build an object file
+department/src/developer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/department.dir/build.make CMakeFiles/department.dir/department/src/developer.cpp.o
+.PHONY : department/src/developer.cpp.o
+
+department/src/developer.i: department/src/developer.cpp.i
+.PHONY : department/src/developer.i
+
+# target to preprocess a source file
+department/src/developer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/department.dir/build.make CMakeFiles/department.dir/department/src/developer.cpp.i
+.PHONY : department/src/developer.cpp.i
+
+department/src/developer.s: department/src/developer.cpp.s
+.PHONY : department/src/developer.s
+
+# target to generate assembly for a file
+department/src/developer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/department.dir/build.make CMakeFiles/department.dir/department/src/developer.cpp.s
+.PHONY : department/src/developer.cpp.s
+
 department/src/employee.o: department/src/employee.cpp.o
 .PHONY : department/src/employee.o
 
@@ -249,6 +273,30 @@ department/src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/department.dir/build.make CMakeFiles/department.dir/department/src/main.cpp.s
 .PHONY : department/src/main.cpp.s
 
+department/src/manager.o: department/src/manager.cpp.o
+.PHONY : department/src/manager.o
+
+# target to build an object file
+department/src/manager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/department.dir/build.make CMakeFiles/department.dir/department/src/manager.cpp.o
+.PHONY : department/src/manager.cpp.o
+
+department/src/manager.i: department/src/manager.cpp.i
+.PHONY : department/src/manager.i
+
+# target to preprocess a source file
+department/src/manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/department.dir/build.make CMakeFiles/department.dir/department/src/manager.cpp.i
+.PHONY : department/src/manager.cpp.i
+
+department/src/manager.s: department/src/manager.cpp.s
+.PHONY : department/src/manager.s
+
+# target to generate assembly for a file
+department/src/manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/department.dir/build.make CMakeFiles/department.dir/department/src/manager.cpp.s
+.PHONY : department/src/manager.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -264,6 +312,9 @@ help:
 	@echo "... department/src/department.o"
 	@echo "... department/src/department.i"
 	@echo "... department/src/department.s"
+	@echo "... department/src/developer.o"
+	@echo "... department/src/developer.i"
+	@echo "... department/src/developer.s"
 	@echo "... department/src/employee.o"
 	@echo "... department/src/employee.i"
 	@echo "... department/src/employee.s"
@@ -273,6 +324,9 @@ help:
 	@echo "... department/src/main.o"
 	@echo "... department/src/main.i"
 	@echo "... department/src/main.s"
+	@echo "... department/src/manager.o"
+	@echo "... department/src/manager.i"
+	@echo "... department/src/manager.s"
 .PHONY : help
 
 

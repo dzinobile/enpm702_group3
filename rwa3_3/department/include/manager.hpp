@@ -18,6 +18,7 @@
 
 #include "employee.hpp"
 #include "developer.hpp"
+#include <memory>
 
 class Manager : public Employee {
 public:
@@ -27,7 +28,7 @@ public:
     void perform_task() override;
     void attend_meeting() override;
     void receive_salary() override;
-    void conduct_performance_review(Developer& developer);
+    void conduct_performance_review(std::shared_ptr<Developer> developer);
 
 private:
     unsigned short team_size_;

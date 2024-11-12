@@ -22,6 +22,7 @@
 
 class Employee {
 public:
+
     Employee(const std::string& name, int salary, const IDBadge& idbadge);
     virtual ~Employee() = default;
 
@@ -30,6 +31,7 @@ public:
     virtual void receive_salary();
     void return_name() const;
     void return_badge_info() const;
+    std::string return_name_string() const;
 
 protected:
     std::string name_;

@@ -17,12 +17,21 @@
 #pragma once
 
 #include <iostream>
+#include <stdexcept>
+#include <sstream>
 
 class Date {
 public:
     Date(unsigned short day, unsigned short month, unsigned short year)
-        : day_(day), month_(month), year_(year) {}
+        : day_(day), month_(month), year_(year) {
+            if (!is_valid_date()) {
+                std::ostringstream oss;
+                oss<<"Invalid Date: " << day << "/" << month << "/" << year;
+                throw std::invalid_argument(oss.str());
+            }
 
+        }
+    
     bool is_valid_date() const;
     bool is_leap_year() const;
     unsigned short get_days_in_month() const;

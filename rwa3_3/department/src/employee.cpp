@@ -2,6 +2,7 @@
 /// Authors: Pritom Gomes, Daniel Zinobile and Khuzema Habib
 
 #include "employee.hpp"
+#include <iostream>
 
 Employee::Employee(const std::string& name, int salary, const IDBadge& idbadge)
     : name_(name), salary_(salary), idbadge_(idbadge) {}
@@ -20,4 +21,8 @@ void Employee::return_name() const {
 
 void Employee::return_badge_info() const {
     idbadge_.display_badge_info();
+}
+
+std::string Employee::return_name_string() const{
+    return name_;
 }

@@ -1,8 +1,8 @@
-# Install script for directory: /home/vboxuser/github/semester_1/enpm702_group3/rwa3_3
+# Install script for directory: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/vboxuser/github/semester_1/enpm702_group3/rwa3_3/build/install/Release")
+  set(CMAKE_INSTALL_PREFIX "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/build/install/Release")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/vboxuser/github/semester_1/enpm702_group3/rwa3_3/build/out/Release/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/build/out/Release/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
