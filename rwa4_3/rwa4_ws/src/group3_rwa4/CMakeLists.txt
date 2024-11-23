@@ -5,11 +5,17 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-include_directories(src/group3_rwa4/include)
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+
+
+include_directories(include/group3_rwa4)
+
+add_executable(hello src/main.cpp src/bot_sequence.cpp)
+
+ament_target_dependencies(hello rclcpp)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -23,4 +29,5 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+install(TARGETS hello DESTINATION lib/${PROJECT_NAME})
 ament_package()
