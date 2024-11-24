@@ -17,6 +17,7 @@ class BotSequence: public rclcpp::Node {
     }
 
     private:
+    
         rclcpp::Publisher<geometry_msgs
     
 };
