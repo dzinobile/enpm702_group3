@@ -1,3 +1,6 @@
+/// ENPM702 Assignment - 4
+/// Authors: Pritom Gomes, Daniel Zinobile and Khuzema Habib
+
 #include "rclcpp/rclcpp.hpp"
 #include "bot_sequence.hpp"
 
@@ -8,3 +11,4 @@ int main(int argc, char *argv[]) {
     rclcpp::shutdown();
     return 0;
 }
+
