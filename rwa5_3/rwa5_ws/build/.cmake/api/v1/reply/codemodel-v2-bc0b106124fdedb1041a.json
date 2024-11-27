@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-cf2151b97587193ed649.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "group3_rwa5",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "executable::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-executable-Debug-f7b7e2666a195dd8d96c.json",
+					"name" : "executable",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "group3_rwa5_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-group3_rwa5_uninstall-Debug-d1d168668d7f496a5c58.json",
+					"name" : "group3_rwa5_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-0341d014fd8c4c68f8c6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build",
+		"source" : "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

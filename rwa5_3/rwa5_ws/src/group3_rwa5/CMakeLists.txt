@@ -9,8 +9,9 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(bot_waypoint_msgs REQUIRED)
 
-include_directories(include/group3_rwa5)
+include_directories(src)
 
 add_executable(executable src/main.cpp src/waypoint_publisher.cpp src/waypoint_reacher.cpp)
 
@@ -26,7 +27,7 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
-ament_target_dependencies(executable rclcpp geometry_msgs)
+ament_target_dependencies(executable rclcpp geometry_msgs bot_waypoint_msgs)
 
 install(TARGETS executable DESTINATION lib/${PROJECT_NAME})
 

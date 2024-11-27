@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.005019] (-) JobUnselected: {'identifier': 'group3_rwa5'}
+[0.005051] (-) JobUnselected: {'identifier': 'rwa5_msgs'}
+[0.006322] (-) EventReactorShutdown: {}

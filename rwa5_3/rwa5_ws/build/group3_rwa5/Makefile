@@ -197,6 +197,91 @@ group3_rwa5_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/group3_rwa5_uninstall.dir/build.make CMakeFiles/group3_rwa5_uninstall.dir/build
 .PHONY : group3_rwa5_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named executable
+
+# Build rule for target.
+executable: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 executable
+.PHONY : executable
+
+# fast build rule for target.
+executable/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/build
+.PHONY : executable/fast
+
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
+src/waypoint_publisher.o: src/waypoint_publisher.cpp.o
+.PHONY : src/waypoint_publisher.o
+
+# target to build an object file
+src/waypoint_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/waypoint_publisher.cpp.o
+.PHONY : src/waypoint_publisher.cpp.o
+
+src/waypoint_publisher.i: src/waypoint_publisher.cpp.i
+.PHONY : src/waypoint_publisher.i
+
+# target to preprocess a source file
+src/waypoint_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/waypoint_publisher.cpp.i
+.PHONY : src/waypoint_publisher.cpp.i
+
+src/waypoint_publisher.s: src/waypoint_publisher.cpp.s
+.PHONY : src/waypoint_publisher.s
+
+# target to generate assembly for a file
+src/waypoint_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/waypoint_publisher.cpp.s
+.PHONY : src/waypoint_publisher.cpp.s
+
+src/waypoint_reacher.o: src/waypoint_reacher.cpp.o
+.PHONY : src/waypoint_reacher.o
+
+# target to build an object file
+src/waypoint_reacher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/waypoint_reacher.cpp.o
+.PHONY : src/waypoint_reacher.cpp.o
+
+src/waypoint_reacher.i: src/waypoint_reacher.cpp.i
+.PHONY : src/waypoint_reacher.i
+
+# target to preprocess a source file
+src/waypoint_reacher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/waypoint_reacher.cpp.i
+.PHONY : src/waypoint_reacher.cpp.i
+
+src/waypoint_reacher.s: src/waypoint_reacher.cpp.s
+.PHONY : src/waypoint_reacher.s
+
+# target to generate assembly for a file
+src/waypoint_reacher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/waypoint_reacher.cpp.s
+.PHONY : src/waypoint_reacher.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +297,16 @@ help:
 	@echo "... test"
 	@echo "... group3_rwa5_uninstall"
 	@echo "... uninstall"
+	@echo "... executable"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/waypoint_publisher.o"
+	@echo "... src/waypoint_publisher.i"
+	@echo "... src/waypoint_publisher.s"
+	@echo "... src/waypoint_reacher.o"
+	@echo "... src/waypoint_reacher.i"
+	@echo "... src/waypoint_reacher.s"
 .PHONY : help
 
 

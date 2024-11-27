@@ -1,0 +1,150 @@
+[0.071s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.077s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7431a6d3e440>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7431a6e276d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7431a6e276d0>>)
+[0.180s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.194s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_waypoint_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_waypoint_msgs) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_waypoint_msgs) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_waypoint_msgs) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_waypoint_msgs) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_waypoint_msgs) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_waypoint_msgs) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_waypoint_msgs) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_waypoint_msgs) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bot_waypoint_msgs' with type 'ros.ament_cmake' and name 'rwa5_msgs'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/group3_rwa5) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/group3_rwa5) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/group3_rwa5) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/group3_rwa5) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/group3_rwa5) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/group3_rwa5) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/group3_rwa5) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/group3_rwa5) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/group3_rwa5) by extension 'ros'
+[0.211s] DEBUG:colcon.colcon_core.package_identification:Package 'src/group3_rwa5' with type 'ros.ament_cmake' and name 'group3_rwa5'
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.241s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install
+[0.241s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/vboxuser/Desktop/practice_ws/install
+[0.242s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa4_3/rwa4_ws/install
+[0.242s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 18 installed packages in /home/vboxuser/ros2_ws2/install
+[0.243s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/vboxuser/ros2_ws/enpm702_fall2024_ros/install
+[0.243s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/vboxuser/ros2_ws/install
+[0.244s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 330 installed packages in /opt/ros/humble
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'group3_rwa5' build argument 'cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'group3_rwa5' build argument 'cmake_target' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'group3_rwa5' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'group3_rwa5' build argument 'cmake_clean_cache' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'group3_rwa5' build argument 'cmake_clean_first' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'group3_rwa5' build argument 'cmake_force_configure' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'group3_rwa5' build argument 'ament_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'group3_rwa5' build argument 'catkin_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'group3_rwa5' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.276s] DEBUG:colcon.colcon_core.verb:Building package 'group3_rwa5' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/group3_rwa5', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5', 'merge_install': False, 'path': '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5', 'symlink_install': False, 'test_result_base': None}
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'rwa5_msgs' build argument 'cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'rwa5_msgs' build argument 'cmake_target' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'rwa5_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'rwa5_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'rwa5_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'rwa5_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'rwa5_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'rwa5_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'rwa5_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.276s] DEBUG:colcon.colcon_core.verb:Building package 'rwa5_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/rwa5_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/rwa5_msgs', 'merge_install': False, 'path': '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/bot_waypoint_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.276s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.278s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.279s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5' with build type 'ament_cmake'
+[0.279s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5'
+[0.281s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.281s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.281s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.289s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/bot_waypoint_msgs' with build type 'ament_cmake'
+[0.289s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/bot_waypoint_msgs'
+[0.289s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.289s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/group3_rwa5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_ws2/install/turtlebot3_teleop:/home/vboxuser/ros2_ws2/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/group3_rwa5 -- -j4 -l4
+[0.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/rwa5_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_ws2/install/turtlebot3_teleop:/home/vboxuser/ros2_ws2/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/bot_waypoint_msgs -DCMAKE_INSTALL_PREFIX=/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/rwa5_msgs
+[0.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/group3_rwa5' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_ws2/install/turtlebot3_teleop:/home/vboxuser/ros2_ws2/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/group3_rwa5 -- -j4 -l4
+[0.686s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(group3_rwa5)
+[0.687s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5' for CMake module files
+[0.688s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5' for CMake config files
+[0.688s] Level 1:colcon.colcon_core.shell:create_environment_hook('group3_rwa5', 'cmake_prefix_path')
+[0.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/hook/cmake_prefix_path.ps1'
+[0.689s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/hook/cmake_prefix_path.dsv'
+[0.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/hook/cmake_prefix_path.sh'
+[0.691s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/bin'
+[0.691s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/lib/pkgconfig/group3_rwa5.pc'
+[0.691s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/lib/python3.10/site-packages'
+[0.691s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/bin'
+[0.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/package.ps1'
+[0.692s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/package.dsv'
+[0.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/package.sh'
+[0.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/package.bash'
+[0.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/package.zsh'
+[0.695s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/colcon-core/packages/group3_rwa5)
+[1.086s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.086s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.086s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[1.086s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.092s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.092s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.092s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.109s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.109s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/local_setup.ps1'
+[1.110s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/_local_setup_util_ps1.py'
+[1.112s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/setup.ps1'
+[1.113s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/local_setup.sh'
+[1.114s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/_local_setup_util_sh.py'
+[1.115s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/setup.sh'
+[1.116s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/local_setup.bash'
+[1.117s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/setup.bash'
+[1.118s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/local_setup.zsh'
+[1.119s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/setup.zsh'
