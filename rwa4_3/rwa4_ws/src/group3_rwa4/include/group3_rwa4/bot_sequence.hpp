@@ -10,7 +10,11 @@ class BotSequence: public rclcpp::Node {
         velocity_publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10)
         
         auto message = geometry_msgs::msg::Twist();
-        //publish twist message
+        /**
+         * @brief 
+         * 
+         * @param message 
+         */
         velocity_publisher_->publish(message);
         
 
