@@ -1,3 +1,0 @@
-/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/build/CMakeFiles/department.dir
-/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/build/CMakeFiles/edit_cache.dir
-/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa3_3/build/CMakeFiles/rebuild_cache.dir

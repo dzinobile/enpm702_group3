@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_employee.html" title="Employee Class." alt="" coords="5,31,92,57"/>
+<area shape="rect" id="node2" href="$class_developer.html" title="Developer Class Inherits Public Attributes from Employee Class." alt="" coords="140,5,229,32"/>
+<area shape="rect" id="node3" href="$class_manager.html" title="Manager Class Inherits Public Attributes from Employee Class." alt="" coords="145,56,224,83"/>
+</map>

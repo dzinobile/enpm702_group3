@@ -1,0 +1,10 @@
+/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5/build/CMakeFiles/uninstall.dir
+/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5/build/CMakeFiles/group3_rwa5_uninstall.dir
+/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5/build/CMakeFiles/executable.dir
+/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5/build/CMakeFiles/test.dir
+/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5/build/CMakeFiles/edit_cache.dir
+/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5/build/CMakeFiles/rebuild_cache.dir
+/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5/build/CMakeFiles/list_install_components.dir
+/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5/build/CMakeFiles/install.dir
+/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5/build/CMakeFiles/install/local.dir
+/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5/build/CMakeFiles/install/strip.dir

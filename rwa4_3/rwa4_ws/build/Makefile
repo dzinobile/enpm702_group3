@@ -197,67 +197,6 @@ group3_rwa4_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/group3_rwa4_uninstall.dir/build.make CMakeFiles/group3_rwa4_uninstall.dir/build
 .PHONY : group3_rwa4_uninstall/fast
 
-#=============================================================================
-# Target rules for targets named hello
-
-# Build rule for target.
-hello: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello
-.PHONY : hello
-
-# fast build rule for target.
-hello/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
-.PHONY : hello/fast
-
-src/bot_sequence.o: src/bot_sequence.cpp.o
-.PHONY : src/bot_sequence.o
-
-# target to build an object file
-src/bot_sequence.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/src/bot_sequence.cpp.o
-.PHONY : src/bot_sequence.cpp.o
-
-src/bot_sequence.i: src/bot_sequence.cpp.i
-.PHONY : src/bot_sequence.i
-
-# target to preprocess a source file
-src/bot_sequence.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/src/bot_sequence.cpp.i
-.PHONY : src/bot_sequence.cpp.i
-
-src/bot_sequence.s: src/bot_sequence.cpp.s
-.PHONY : src/bot_sequence.s
-
-# target to generate assembly for a file
-src/bot_sequence.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/src/bot_sequence.cpp.s
-.PHONY : src/bot_sequence.cpp.s
-
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
-
-# target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
-
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
-
-# target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
-
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
-
-# target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -273,13 +212,6 @@ help:
 	@echo "... test"
 	@echo "... group3_rwa4_uninstall"
 	@echo "... uninstall"
-	@echo "... hello"
-	@echo "... src/bot_sequence.o"
-	@echo "... src/bot_sequence.i"
-	@echo "... src/bot_sequence.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
 .PHONY : help
 
 

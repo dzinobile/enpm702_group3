@@ -1,0 +1,5 @@
+<map id="Date::is_valid_date" name="Date::is_valid_date">
+<area shape="rect" id="node1" title="Check if Date is Valid." alt="" coords="5,5,152,32"/>
+<area shape="rect" id="node2" href="$class_date.html#a51c23aaa97beb5656fefa1e92b1d0e47" title="Get the days in month object." alt="" coords="200,5,388,32"/>
+<area shape="rect" id="node3" href="$class_date.html#a22f86a623c0778aaf27644d446204285" title="Check if it is a Leap Year." alt="" coords="436,5,579,32"/>
+</map>

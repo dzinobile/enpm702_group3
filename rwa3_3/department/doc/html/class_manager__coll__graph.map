@@ -1,0 +1,5 @@
+<map id="Manager" name="Manager">
+<area shape="rect" id="node1" title="Manager Class Inherits Public Attributes from Employee Class." alt="" coords="9,171,88,197"/>
+<area shape="rect" id="node2" href="$class_employee.html" title="Employee Class." alt="" coords="5,95,92,121"/>
+<area shape="rect" id="node3" href="$class_i_d_badge.html" title="IDBadge Class." alt="" coords="10,5,87,32"/>
+</map>

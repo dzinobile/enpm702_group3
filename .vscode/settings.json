@@ -65,7 +65,13 @@
         "thread": "cpp",
         "cinttypes": "cpp",
         "typeindex": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "any": "cpp",
+        "strstream": "cpp",
+        "future": "cpp",
+        "cfenv": "cpp",
+        "valarray": "cpp",
+        "variant": "cpp"
     },
     "cmake.sourceDirectory": "/home/vboxuser/github/semester_1/programming/enpm702_group3",
     "cmake.options.statusBarVisibility": "visible"

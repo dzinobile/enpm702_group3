@@ -1,6 +1,9 @@
 /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa4_3/rwa4_ws/build/CMakeFiles/uninstall.dir
 /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa4_3/rwa4_ws/build/CMakeFiles/group3_rwa4_uninstall.dir
+<<<<<<< HEAD
 /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa4_3/rwa4_ws/build/CMakeFiles/hello.dir
+=======
+>>>>>>> main
 /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa4_3/rwa4_ws/build/CMakeFiles/test.dir
 /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa4_3/rwa4_ws/build/CMakeFiles/edit_cache.dir
 /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa4_3/rwa4_ws/build/CMakeFiles/rebuild_cache.dir

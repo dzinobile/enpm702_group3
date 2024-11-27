@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/dzinobile/Documents/UMD/Semester_1/programming/github/enpm702_group3/rwa3_3/department/include
+CXX_INCLUDES = -I"/home/khuzema/Desktop/Programming 702/group3/enpm702_group3/rwa3_3/department/include"
 
 CXX_FLAGS = -g -Wall -pedantic-errors
 
