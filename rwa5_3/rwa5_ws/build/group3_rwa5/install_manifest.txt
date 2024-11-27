@@ -1,0 +1,15 @@
+/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/ament_index/resource_index/package_run_dependencies/group3_rwa5
+/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/ament_index/resource_index/parent_prefix_path/group3_rwa5
+/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/environment/ament_prefix_path.sh
+/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/environment/ament_prefix_path.dsv
+/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/environment/path.sh
+/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/environment/path.dsv
+/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/local_setup.bash
+/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/local_setup.sh
+/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/local_setup.zsh
+/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/local_setup.dsv
+/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/package.dsv
+/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/ament_index/resource_index/packages/group3_rwa5
+/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/cmake/group3_rwa5Config.cmake
+/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/cmake/group3_rwa5Config-version.cmake
+/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/package.xml
