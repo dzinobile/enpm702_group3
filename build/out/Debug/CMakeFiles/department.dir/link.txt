@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/department.dir/rwa3_3/department/src/main.cpp.o CMakeFiles/department.dir/rwa3_3/department/src/department.cpp.o CMakeFiles/department.dir/rwa3_3/department/src/employee.cpp.o CMakeFiles/department.dir/rwa3_3/department/src/date.cpp.o CMakeFiles/department.dir/rwa3_3/department/src/idbadge.cpp.o -o department 
