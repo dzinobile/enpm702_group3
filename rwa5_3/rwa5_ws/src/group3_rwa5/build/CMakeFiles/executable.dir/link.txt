@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/executable.dir/src/main.cpp.o CMakeFiles/executable.dir/src/waypoint_publisher.cpp.o CMakeFiles/executable.dir/src/waypoint_reacher.cpp.o -o executable 

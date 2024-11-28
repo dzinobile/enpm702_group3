@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "bot_waypoint_msgs__py",
+		"source" : "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/bot_waypoint_msgs__py"
+	}
+}

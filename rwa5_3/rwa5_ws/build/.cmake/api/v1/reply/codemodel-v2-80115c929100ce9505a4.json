@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-9aad3ca84a1d6309465c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "bot_waypoint_msgs__py",
+					"jsonFile" : "directory-bot_waypoint_msgs__py-Debug-54fe9a75175cd0f3dc25.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/bot_waypoint_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "bot_waypoint_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_bot_waypoint_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_bot_waypoint_msgs_egg-Debug-20acd833faa87c614888.json",
+					"name" : "ament_cmake_python_build_bot_waypoint_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_bot_waypoint_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_bot_waypoint_msgs-Debug-66b0efe2b992e95ca9f5.json",
+					"name" : "ament_cmake_python_copy_bot_waypoint_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bot_waypoint_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bot_waypoint_msgs-Debug-3f665fc73a64b328215c.json",
+					"name" : "bot_waypoint_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bot_waypoint_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bot_waypoint_msgs__cpp-Debug-6cb59377e2106bb3d03e.json",
+					"name" : "bot_waypoint_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "bot_waypoint_msgs__py::@becd2ec74d73fbf167b9",
+					"jsonFile" : "target-bot_waypoint_msgs__py-Debug-ab1e7f425621e8fc153a.json",
+					"name" : "bot_waypoint_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bot_waypoint_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bot_waypoint_msgs__rosidl_generator_c-Debug-0192936df424ec45df06.json",
+					"name" : "bot_waypoint_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bot_waypoint_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bot_waypoint_msgs__rosidl_generator_py-Debug-ce29fe8e103a9ae7b374.json",
+					"name" : "bot_waypoint_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bot_waypoint_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bot_waypoint_msgs__rosidl_typesupport_c-Debug-f5c49982504e2bb97293.json",
+					"name" : "bot_waypoint_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bot_waypoint_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bot_waypoint_msgs__rosidl_typesupport_c__pyext-Debug-9aa3f44d093985903ee1.json",
+					"name" : "bot_waypoint_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bot_waypoint_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bot_waypoint_msgs__rosidl_typesupport_cpp-Debug-1ca064925309f2f22bc7.json",
+					"name" : "bot_waypoint_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bot_waypoint_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bot_waypoint_msgs__rosidl_typesupport_fastrtps_c-Debug-f1cf5d5f8ea43bf34639.json",
+					"name" : "bot_waypoint_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bot_waypoint_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bot_waypoint_msgs__rosidl_typesupport_fastrtps_c__pyext-Debug-99d783b7c84c227cda60.json",
+					"name" : "bot_waypoint_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bot_waypoint_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bot_waypoint_msgs__rosidl_typesupport_fastrtps_cpp-Debug-f2d72b21790ed0589d73.json",
+					"name" : "bot_waypoint_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bot_waypoint_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bot_waypoint_msgs__rosidl_typesupport_introspection_c-Debug-8eb84e8645a9bca7bbb6.json",
+					"name" : "bot_waypoint_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bot_waypoint_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bot_waypoint_msgs__rosidl_typesupport_introspection_c__pyext-Debug-439dfee000c47be230e2.json",
+					"name" : "bot_waypoint_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bot_waypoint_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bot_waypoint_msgs__rosidl_typesupport_introspection_cpp-Debug-892e97f6af10c90ef31a.json",
+					"name" : "bot_waypoint_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bot_waypoint_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bot_waypoint_msgs_uninstall-Debug-9e2de9f9bdcab2c897d0.json",
+					"name" : "bot_waypoint_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-dab172be3fce1fb6dd4e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build",
+		"source" : "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/bot_waypoint_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5/build",
+  "command": "/usr/bin/g++  -I/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5/include/group3_rwa5 -g -Wall -Wextra -Wpedantic -o CMakeFiles/executable.dir/src/main.cpp.o -c /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5/src/main.cpp",
+  "file": "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5/src/main.cpp"
+},
+{
+  "directory": "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5/build",
+  "command": "/usr/bin/g++  -I/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5/include/group3_rwa5 -g -Wall -Wextra -Wpedantic -o CMakeFiles/executable.dir/src/waypoint_publisher.cpp.o -c /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5/src/waypoint_publisher.cpp",
+  "file": "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5/src/waypoint_publisher.cpp"
+},
+{
+  "directory": "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5/build",
+  "command": "/usr/bin/g++  -I/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5/include/group3_rwa5 -g -Wall -Wextra -Wpedantic -o CMakeFiles/executable.dir/src/waypoint_reacher.cpp.o -c /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5/src/waypoint_reacher.cpp",
+  "file": "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5/src/waypoint_reacher.cpp"
+}
+]

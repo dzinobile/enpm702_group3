@@ -1,0 +1,8 @@
+setup.py
+bot_waypoint_msgs/__init__.py
+bot_waypoint_msgs.egg-info/PKG-INFO
+bot_waypoint_msgs.egg-info/SOURCES.txt
+bot_waypoint_msgs.egg-info/dependency_links.txt
+bot_waypoint_msgs.egg-info/top_level.txt
+bot_waypoint_msgs/msg/__init__.py
+bot_waypoint_msgs/msg/_bot_waypoint.py
