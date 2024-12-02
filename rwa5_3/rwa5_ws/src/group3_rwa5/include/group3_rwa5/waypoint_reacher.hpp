@@ -1,6 +1,7 @@
 #pragma once
 #include <rclcpp/rclcpp.hpp>
 #include <bot_waypoint_msgs/msg/bot_waypoint.hpp>
+#include <geometry_msgs/msg/twist.hpp>
 
 class WaypointReacher : public rclcpp::Node {
     public:
@@ -12,8 +13,10 @@ class WaypointReacher : public rclcpp::Node {
             sub_qos.transient_local();
             subscriber_ = this->create_subscription<bot_waypoint_msgs::msg::BotWaypoint>(
                 "waypoint_reacher", sub_qos, std::bind(&WaypointReacher ::receive_int, this, std::placeholders::_1));//IDK WHY STD PLACEHOLDERS IS THERE
+            velocity_publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel, 10");
             RCLCPP_INFO_STREAM(this->get_logger(), "waypoint_reacher");
             }
+            
 
     private:
 
@@ -34,5 +37,5 @@ class WaypointReacher : public rclcpp::Node {
      * It invokes the `receive_int` callback function whenever a new message is received.
      */
     rclcpp::Subscription<bot_waypoint_msgs::msg::BotWaypoint>::SharedPtr subscriber_;
-
+    rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr velocity_publisher_;
 };//  class Waypoint Reacher
