@@ -2,6 +2,7 @@
 #include <rclcpp/rclcpp.hpp>
 #include <bot_waypoint_msgs/msg/bot_waypoint.hpp>
 #include <geometry_msgs/msg/twist.hpp>
+#include <nav_msgs/msg/odometry.hpp>
 
 class WaypointReacher : public rclcpp::Node {
     public:
@@ -14,6 +15,10 @@ class WaypointReacher : public rclcpp::Node {
             subscriber_ = this->create_subscription<bot_waypoint_msgs::msg::BotWaypoint>(
                 "waypoint_reacher", sub_qos, std::bind(&WaypointReacher ::receive_int, this, std::placeholders::_1));//IDK WHY STD PLACEHOLDERS IS THERE
             velocity_publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("/cmd_vel, 10");
+            //subscriber for odometry data
+            odom_subscription_ = this->create_subscription<nav_msgs::msg::Odometry>(
+                "/odom",10,
+                std::bind(&WaypointReacher::odom_callback, this,  std::placeholders::_1)); 
             RCLCPP_INFO_STREAM(this->get_logger(), "waypoint_reacher");
             }
             
@@ -37,5 +42,6 @@ class WaypointReacher : public rclcpp::Node {
      * It invokes the `receive_int` callback function whenever a new message is received.
      */
     rclcpp::Subscription<bot_waypoint_msgs::msg::BotWaypoint>::SharedPtr subscriber_;
+    rclcpp::Subscription<nav_msgs::msg::Odometry>::SharedPtr odom_subscription_;
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr velocity_publisher_;
 };//  class Waypoint Reacher

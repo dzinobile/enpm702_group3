@@ -18,6 +18,8 @@ class WaypointPublisher : rclcpp::Node {
                     std::chrono::milliseconds(500),
                     std::bind(&WaypointPublisher::publish_int, this));
                 RCLCPP_INFO_STREAM(this->get_logger(), "waypoint_publisher_node started");
+
+                
             }
 
     private:
