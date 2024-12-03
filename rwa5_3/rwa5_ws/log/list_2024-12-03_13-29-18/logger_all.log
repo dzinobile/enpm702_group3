@@ -1,0 +1,66 @@
+[1.395s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws']
+[1.396s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa2b11579d0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fa2b11568c0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fa2b11568c0>>)
+[3.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.850s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws'
+[3.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws) by extensions ['ignore', 'ignore_ament_install']
+[3.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws) by extension 'ignore'
+[3.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws) by extension 'ignore_ament_install'
+[3.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws) by extensions ['colcon_pkg']
+[3.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws) by extension 'colcon_pkg'
+[3.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws) by extensions ['colcon_meta']
+[3.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws) by extension 'colcon_meta'
+[3.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws) by extensions ['ros']
+[3.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws) by extension 'ros'
+[4.014s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws) by extensions ['cmake', 'python']
+[4.014s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws) by extension 'cmake'
+[4.015s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws) by extension 'python'
+[4.052s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws) by extensions ['python_setup_py']
+[4.053s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws) by extension 'python_setup_py'
+[4.057s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[4.070s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build) by extension 'ignore'
+[4.071s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build) ignored
+[4.071s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[4.073s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install) by extension 'ignore'
+[4.073s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install) ignored
+[4.073s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[4.074s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/log) by extension 'ignore'
+[4.074s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/log) ignored
+[4.074s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[4.074s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src) by extension 'ignore'
+[4.074s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src) by extension 'ignore_ament_install'
+[4.074s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src) by extensions ['colcon_pkg']
+[4.074s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src) by extension 'colcon_pkg'
+[4.074s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src) by extensions ['colcon_meta']
+[4.074s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src) by extension 'colcon_meta'
+[4.074s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src) by extensions ['ros']
+[4.074s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src) by extension 'ros'
+[4.074s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src) by extensions ['cmake', 'python']
+[4.074s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src) by extension 'cmake'
+[4.074s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src) by extension 'python'
+[4.075s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src) by extensions ['python_setup_py']
+[4.075s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src) by extension 'python_setup_py'
+[4.075s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/bot_waypoint_msgs) by extensions ['ignore', 'ignore_ament_install']
+[4.075s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/bot_waypoint_msgs) by extension 'ignore'
+[4.075s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/bot_waypoint_msgs) by extension 'ignore_ament_install'
+[4.075s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/bot_waypoint_msgs) by extensions ['colcon_pkg']
+[4.075s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/bot_waypoint_msgs) by extension 'colcon_pkg'
+[4.075s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/bot_waypoint_msgs) by extensions ['colcon_meta']
+[4.075s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/bot_waypoint_msgs) by extension 'colcon_meta'
+[4.075s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/bot_waypoint_msgs) by extensions ['ros']
+[4.075s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/bot_waypoint_msgs) by extension 'ros'
+[4.137s] DEBUG:colcon.colcon_core.package_identification:Package '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/bot_waypoint_msgs' with type 'ros.ament_cmake' and name 'bot_waypoint_msgs'
+[4.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5) by extensions ['ignore', 'ignore_ament_install']
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5) by extension 'ignore'
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5) by extension 'ignore_ament_install'
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5) by extensions ['colcon_pkg']
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5) by extension 'colcon_pkg'
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5) by extensions ['colcon_meta']
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5) by extension 'colcon_meta'
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5) by extensions ['ros']
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5) by extension 'ros'
+[4.169s] DEBUG:colcon.colcon_core.package_identification:Package '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/group3_rwa5' with type 'ros.ament_cmake' and name 'group3_rwa5'
+[4.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
