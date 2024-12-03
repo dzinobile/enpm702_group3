@@ -13,7 +13,7 @@ class WaypointReacher : public rclcpp::Node {
             sub_qos.transient_local();
             subscriber_ = this->create_subscription<bot_waypoint_msgs::msg::BotWaypoint>(
                 "waypoint_reacher", sub_qos, std::bind(&WaypointReacher ::receive_int, this, std::placeholders::_1));//IDK WHY STD PLACEHOLDERS IS THERE
-            velocity_publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel, 10");
+            velocity_publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("/cmd_vel, 10");
             RCLCPP_INFO_STREAM(this->get_logger(), "waypoint_reacher");
             }
             
