@@ -13,16 +13,33 @@ WaypointPublisher::WaypointPublisher()
     // Initialize the publisher for waypoints
     publisher_ = this->create_publisher<bot_waypoint_msgs::msg::BotWaypoint>("bot_waypoint", pub_qos);
 
-    // Initialize the subscriber for next waypoint signals
+    // Initialize the subscriber for readiness signals
     next_waypoint_subscriber_ = this->create_subscription<std_msgs::msg::Bool>(
         "next_waypoint", 10, std::bind(&WaypointPublisher::nextWaypointCallback, this, std::placeholders::_1));
 
-    // Define the sequence of waypoints
-    waypoints_[0] = bot_waypoint_msgs::msg::BotWaypoint{{4.0, 4.0, 1.57}, bot_waypoint_msgs::msg::BotWaypoint::SMALL};
-    waypoints_[1] = bot_waypoint_msgs::msg::BotWaypoint{{4.0, -4.0, 3.14}, bot_waypoint_msgs::msg::BotWaypoint::MEDIUM};
-    waypoints_[2] = bot_waypoint_msgs::msg::BotWaypoint{{-4.0, 4.0, -3.14}, bot_waypoint_msgs::msg::BotWaypoint::LARGE};
+    // Define and initialize the sequence of waypoints
+    bot_waypoint_msgs::msg::BotWaypoint waypoint1;
+    waypoint1.waypoint.x = 4.0;
+    waypoint1.waypoint.y = 4.0;
+    waypoint1.waypoint.theta = 1.57;
+    waypoint1.tolerance = bot_waypoint_msgs::msg::BotWaypoint::SMALL;
+    waypoints_[0] = waypoint1;
 
-    // Publish the first waypoint immediately
+    bot_waypoint_msgs::msg::BotWaypoint waypoint2;
+    waypoint2.waypoint.x = 4.0;
+    waypoint2.waypoint.y = -4.0;
+    waypoint2.waypoint.theta = 3.14;
+    waypoint2.tolerance = bot_waypoint_msgs::msg::BotWaypoint::MEDIUM;
+    waypoints_[1] = waypoint2;
+
+    bot_waypoint_msgs::msg::BotWaypoint waypoint3;
+    waypoint3.waypoint.x = -4.0;
+    waypoint3.waypoint.y = 4.0;
+    waypoint3.waypoint.theta = -3.14;
+    waypoint3.tolerance = bot_waypoint_msgs::msg::BotWaypoint::LARGE;
+    waypoints_[2] = waypoint3;
+
+    // Publish the first waypoint
     publish_int();
 
     RCLCPP_INFO_STREAM(this->get_logger(), "WaypointPublisher node started.");
@@ -30,13 +47,11 @@ WaypointPublisher::WaypointPublisher()
 
 void WaypointPublisher::publish_int() {
     if (current_index_ < waypoints_.size()) {
-        // Retrieve and publish the current waypoint
-        auto message = bot_waypoint_msgs::msg::BotWaypoint();
-        message = waypoints_[current_index_];
-        publisher_->publish(message);
+        auto message = waypoints_[current_index_]; // Get the current waypoint
+        publisher_->publish(message); // Publish the waypoint
 
         RCLCPP_INFO_STREAM(this->get_logger(), "Published waypoint: [" 
-            << message.pose.x << ", " << message.pose.y << ", " << message.pose.theta 
+            << message.waypoint.x << ", " << message.waypoint.y << ", " << message.waypoint.theta 
             << "] with tolerance " << static_cast<int>(message.tolerance));
     } else {
         RCLCPP_WARN_STREAM(this->get_logger(), "No more waypoints to publish.");
@@ -45,9 +60,8 @@ void WaypointPublisher::publish_int() {
 
 void WaypointPublisher::nextWaypointCallback(const std_msgs::msg::Bool::SharedPtr msg) {
     if (msg->data && current_index_ + 1 < waypoints_.size()) {
-        // Move to the next waypoint and publish it
-        current_index_++;
-        publish_int();
+        current_index_++; // Move to the next waypoint
+        publish_int();    // Publish the next waypoint
     } else if (current_index_ + 1 >= waypoints_.size()) {
         RCLCPP_INFO_STREAM(this->get_logger(), "All waypoints have been published.");
     }
