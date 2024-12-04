@@ -175,6 +175,7 @@ CMakeFiles/bot_waypoint_msgs_uninstall.dir/clean:
 # Target rules for target CMakeFiles/bot_waypoint_msgs.dir
 
 # All Build rule for target.
+CMakeFiles/bot_waypoint_msgs.dir/all: CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_cpp.dir/all
 CMakeFiles/bot_waypoint_msgs.dir/all: CMakeFiles/bot_waypoint_msgs__rosidl_generator_c.dir/all
 CMakeFiles/bot_waypoint_msgs.dir/all: CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_fastrtps_c.dir/all
 CMakeFiles/bot_waypoint_msgs.dir/all: CMakeFiles/bot_waypoint_msgs__cpp.dir/all
@@ -182,7 +183,6 @@ CMakeFiles/bot_waypoint_msgs.dir/all: CMakeFiles/bot_waypoint_msgs__rosidl_types
 CMakeFiles/bot_waypoint_msgs.dir/all: CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_introspection_c.dir/all
 CMakeFiles/bot_waypoint_msgs.dir/all: CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_c.dir/all
 CMakeFiles/bot_waypoint_msgs.dir/all: CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_introspection_cpp.dir/all
-CMakeFiles/bot_waypoint_msgs.dir/all: CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_cpp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bot_waypoint_msgs.dir/build.make CMakeFiles/bot_waypoint_msgs.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bot_waypoint_msgs.dir/build.make CMakeFiles/bot_waypoint_msgs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/bot_waypoint_msgs/CMakeFiles --progress-num= "Built target bot_waypoint_msgs"
@@ -468,9 +468,9 @@ CMakeFiles/ament_cmake_python_build_bot_waypoint_msgs_egg.dir/clean:
 # Target rules for target CMakeFiles/bot_waypoint_msgs__rosidl_generator_py.dir
 
 # All Build rule for target.
+CMakeFiles/bot_waypoint_msgs__rosidl_generator_py.dir/all: bot_waypoint_msgs__py/CMakeFiles/bot_waypoint_msgs__py.dir/all
 CMakeFiles/bot_waypoint_msgs__rosidl_generator_py.dir/all: CMakeFiles/bot_waypoint_msgs__rosidl_generator_c.dir/all
 CMakeFiles/bot_waypoint_msgs__rosidl_generator_py.dir/all: CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_c.dir/all
-CMakeFiles/bot_waypoint_msgs__rosidl_generator_py.dir/all: bot_waypoint_msgs__py/CMakeFiles/bot_waypoint_msgs__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bot_waypoint_msgs__rosidl_generator_py.dir/build.make CMakeFiles/bot_waypoint_msgs__rosidl_generator_py.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bot_waypoint_msgs__rosidl_generator_py.dir/build.make CMakeFiles/bot_waypoint_msgs__rosidl_generator_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/bot_waypoint_msgs/CMakeFiles --progress-num=6,7 "Built target bot_waypoint_msgs__rosidl_generator_py"
@@ -496,11 +496,11 @@ CMakeFiles/bot_waypoint_msgs__rosidl_generator_py.dir/clean:
 # Target rules for target CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_fastrtps_c__pyext.dir
 
 # All Build rule for target.
+CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/bot_waypoint_msgs__rosidl_generator_py.dir/all
+CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: bot_waypoint_msgs__py/CMakeFiles/bot_waypoint_msgs__py.dir/all
 CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/bot_waypoint_msgs__rosidl_generator_c.dir/all
 CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_fastrtps_c.dir/all
 CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_c.dir/all
-CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/bot_waypoint_msgs__rosidl_generator_py.dir/all
-CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: bot_waypoint_msgs__py/CMakeFiles/bot_waypoint_msgs__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/bot_waypoint_msgs/CMakeFiles --progress-num=19,20 "Built target bot_waypoint_msgs__rosidl_typesupport_fastrtps_c__pyext"
@@ -526,11 +526,11 @@ CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/clean:
 # Target rules for target CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_introspection_c__pyext.dir
 
 # All Build rule for target.
+CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/bot_waypoint_msgs__rosidl_generator_py.dir/all
+CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: bot_waypoint_msgs__py/CMakeFiles/bot_waypoint_msgs__py.dir/all
 CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/bot_waypoint_msgs__rosidl_generator_c.dir/all
 CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_introspection_c.dir/all
 CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_c.dir/all
-CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/bot_waypoint_msgs__rosidl_generator_py.dir/all
-CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: bot_waypoint_msgs__py/CMakeFiles/bot_waypoint_msgs__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_introspection_c__pyext.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_introspection_c__pyext.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/bot_waypoint_msgs/CMakeFiles --progress-num=27,28 "Built target bot_waypoint_msgs__rosidl_typesupport_introspection_c__pyext"
@@ -556,10 +556,10 @@ CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_introspection_c__pyext.dir/clea
 # Target rules for target CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_c__pyext.dir
 
 # All Build rule for target.
-CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/bot_waypoint_msgs__rosidl_generator_c.dir/all
-CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_c.dir/all
 CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/bot_waypoint_msgs__rosidl_generator_py.dir/all
 CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_c__pyext.dir/all: bot_waypoint_msgs__py/CMakeFiles/bot_waypoint_msgs__py.dir/all
+CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/bot_waypoint_msgs__rosidl_generator_c.dir/all
+CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_c__pyext.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/bot_waypoint_msgs__rosidl_typesupport_c__pyext.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/bot_waypoint_msgs/CMakeFiles --progress-num=11,12 "Built target bot_waypoint_msgs__rosidl_typesupport_c__pyext"

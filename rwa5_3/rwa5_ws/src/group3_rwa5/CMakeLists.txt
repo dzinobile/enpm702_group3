@@ -9,13 +9,18 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(bot_waypoint_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
+find_package(tf2_geometry_msgs REQUIRED)
+find_package(std_msgs REQUIRED)
+
+
 
 include_directories(include/group3_rwa5)
 
-add_executable(executable src/main.cpp src/waypoint_publisher.cpp src/waypoint_reacher.cpp)
+add_executable(group3_rwa5 src/main.cpp src/waypoint_publisher.cpp src/waypoint_reacher.cpp)
 
-ament_target_dependencies(rclcpp bot_waypoint_msgs)
+ament_target_dependencies(group3_rwa5 rclcpp bot_waypoint_msgs nav_msgs tf2_geometry_msgs)
 
-install(TARGETS executable DESTINATION lib/${PROJECT_NAME})
+install(TARGETS group3_rwa5 DESTINATION lib/${PROJECT_NAME})
 
 ament_package()

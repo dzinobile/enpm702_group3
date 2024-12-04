@@ -1,56 +1,84 @@
+/// ENPM702 Assignment - 3
+/// Authors: Pritom Gomes, Daniel Zinobile and Khuzema Habib
+
 #pragma once
+
 #include <rclcpp/rclcpp.hpp>
 #include <bot_waypoint_msgs/msg/bot_waypoint.hpp>
+#include <std_msgs/msg/bool.hpp>
+#include <array>
+#include "geometry_msgs/msg/pose2_d.hpp"
 
-class WaypointPublisher : rclcpp::Node {
-    public:
-        WaypointPublisher()
-            : Node("waypoint_publisher_node") {
-                //QoS setting for the publisher
-                rclcpp::QoS pub_qos(10);
-                pub_qos.reliable();
-                pub_qos.transient_local();
-                //initialize the publisher
-                publisher_ = this->create_publisher<bot_waypoint_msgs::msg::BotWaypoint>("waypoint_publisher", pub_qos);
-                
-                //initialize the timer
-                timer_ = this->create_wall_timer(
-                    std::chrono::milliseconds(500),
-                    std::bind(&WaypointPublisher::publish_int, this));
-                RCLCPP_INFO_STREAM(this->get_logger(), "waypoint_publisher_node started");
-
-                
-            }
-
-    private:
-        /**
-     * @brief Counter variable used for publishing integer values.
+/**
+ * @class WaypointPublisher
+ * @brief A ROS 2 node for managing and publishing waypoints for a robot.
+ *
+ * The WaypointPublisher class stores a predefined list of 3 waypoints and publishes
+ * them sequentially on the bot_waypoint topic. It listens for signals indicating
+ * readiness for the next waypoint.
+ */
+class WaypointPublisher : public rclcpp::Node {
+public:
+    /**
+     * @brief Constructor for the WaypointPublisher class.
      *
-     * Tracks the current count to be published by the `publish_int` method.
-     * Initialized to zero.
+     * Initializes the publisher for waypoints
      */
-    int counter_{0};
+    WaypointPublisher();
 
-        /**
-     * @brief Publishes the current counter value as an `Int64` message.
+private:
+    /**
+     * @brief Publishes the current waypoint to the bot_waypoint topic.
      *
-     * This function retrieves the current value of the `counter_` variable
-     * and publishes it to the associated topic using the `publisher_`.
+     * Retrieves the current waypoint from the array and publishes it. Ensures each
+     * waypoint is published only once.
      */
     void publish_int();
 
     /**
-     * @brief ROS 2 publisher for publishing integer values.
+     * @brief Callback function to handle readiness signals for the next waypoint.
      *
-     * Publishes `example_interfaces::msg::Int64` messages containing the value of `counter_`.
+     * Updates the waypoint index upon receiving a true signal and publishes the next waypoint.
+     *
+     * @param msg A shared pointer to the received Bool message indicating readiness for the next waypoint.
+     */
+    void nextWaypointCallback(const std_msgs::msg::Bool::SharedPtr msg);
+
+    /**
+     * @brief Publisher for publishing waypoints.
+     *
+     * Publishes BotWaypoint messages on the bot_waypoint topic to provide target positions,
+     * orientations, and tolerances for navigation.
      */
     rclcpp::Publisher<bot_waypoint_msgs::msg::BotWaypoint>::SharedPtr publisher_;
 
-        /**
-     * @brief ROS 2 timer for scheduling periodic publishing.
+    /**
+     * @brief Subscriber for readiness signals from the WaypointReacher node.
      *
-     * Triggers the `publish_int` method at regular intervals.
+     * Listens for Boolean messages on the next_waypoint topic to determine when
+     * to publish the next waypoint.
      */
-    rclcpp::TimerBase::SharedPtr timer_;
+    rclcpp::Subscription<std_msgs::msg::Bool>::SharedPtr next_waypoint_subscriber_;
 
-};//class WaypointPublisher
+    /**
+     * @brief Array of predefined waypoints.
+     *
+     * Stores the sequence of waypoints, each containing a position (x, y), orientation (theta),
+     * and tolerance value.
+     */
+    std::array<bot_waypoint_msgs::msg::BotWaypoint, 3> waypoints_;
+
+    /**
+     * @brief Index of the current waypoint being published.
+     *
+     * Tracks the progress through the sequence of waypoints.
+     */
+    size_t current_index_;
+
+    /**
+     * @brief Flag to indicate if the current waypoint has been published.
+     *
+     * Ensures that waypoints are not published multiple times.
+     */
+    bool waypoint_published_;
+};

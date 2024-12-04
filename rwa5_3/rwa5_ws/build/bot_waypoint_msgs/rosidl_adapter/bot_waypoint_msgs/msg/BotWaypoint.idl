@@ -12,12 +12,12 @@ module bot_waypoint_msgs {
       const uint8 LARGE = 3;
     };
     @verbatim (language="comment", text=
-      "the field tolerance will take only one of the three following values")
+      "The field tolerance will take only one of the three following values")
     struct BotWaypoint {
       uint8 tolerance;
 
       @verbatim (language="comment", text=
-        "x, y, theta")
+        "The target position (x, y) and orientation (theta) of the waypoint")
       geometry_msgs::msg::Pose2D waypoint;
     };
   };

@@ -4,13 +4,18 @@
   <name>group3_rwa5</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="vboxuser@todo.todo">vboxuser</maintainer>
+  <maintainer email="pgomes10@umd.edu">ubuntu</maintainer>
+  <maintainer email="zinobile@umd.edu">ubuntu</maintainer>
+  <maintainer email="khabib@umd.edu">ubuntu</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
   <depend>bot_waypoint_msgs</depend>
+  
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>

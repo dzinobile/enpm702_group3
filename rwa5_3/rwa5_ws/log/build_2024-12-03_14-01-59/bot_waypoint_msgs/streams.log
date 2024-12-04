@@ -1,0 +1,142 @@
+[0.051s] Invoking command in '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/bot_waypoint_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_ws2/install/turtlebot3_teleop:/home/vboxuser/ros2_ws2/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/bot_waypoint_msgs -- -j2 -l2
+[0.220s] [  9%] Built target bot_waypoint_msgs__rosidl_generator_c
+[0.297s] [ 12%] Built target bot_waypoint_msgs__cpp
+[0.401s] [ 12%] Built target ament_cmake_python_copy_bot_waypoint_msgs
+[0.470s] [ 22%] Built target bot_waypoint_msgs__rosidl_typesupport_introspection_c
+[0.535s] [ 32%] Built target bot_waypoint_msgs__rosidl_typesupport_c
+[0.649s] [ 41%] Built target bot_waypoint_msgs__rosidl_typesupport_introspection_cpp
+[0.721s] [ 51%] Built target bot_waypoint_msgs__rosidl_typesupport_cpp
+[0.792s] [ 61%] Built target bot_waypoint_msgs__rosidl_typesupport_fastrtps_c
+[0.864s] [ 70%] Built target bot_waypoint_msgs__rosidl_typesupport_fastrtps_cpp
+[1.258s] running egg_info
+[1.266s] writing bot_waypoint_msgs.egg-info/PKG-INFO
+[1.267s] writing dependency_links to bot_waypoint_msgs.egg-info/dependency_links.txt
+[1.267s] writing top-level names to bot_waypoint_msgs.egg-info/top_level.txt
+[1.273s] reading manifest file 'bot_waypoint_msgs.egg-info/SOURCES.txt'
+[1.281s] writing manifest file 'bot_waypoint_msgs.egg-info/SOURCES.txt'
+[1.344s] [ 70%] Built target ament_cmake_python_build_bot_waypoint_msgs_egg
+[1.410s] [ 70%] Built target bot_waypoint_msgs
+[1.480s] [ 74%] Built target bot_waypoint_msgs__py
+[1.551s] [ 80%] Built target bot_waypoint_msgs__rosidl_generator_py
+[1.628s] [ 87%] Built target bot_waypoint_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.703s] [ 93%] Built target bot_waypoint_msgs__rosidl_typesupport_introspection_c__pyext
+[1.773s] [100%] Built target bot_waypoint_msgs__rosidl_typesupport_c__pyext
+[1.807s] Invoked command in '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/bot_waypoint_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_ws2/install/turtlebot3_teleop:/home/vboxuser/ros2_ws2/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/bot_waypoint_msgs -- -j2 -l2
+[1.844s] Invoking command in '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/bot_waypoint_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_ws2/install/turtlebot3_teleop:/home/vboxuser/ros2_ws2/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/bot_waypoint_msgs
+[1.866s] -- Install configuration: ""
+[1.867s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/ament_index/resource_index/rosidl_interfaces/bot_waypoint_msgs
+[1.872s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs
+[1.872s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg
+[1.872s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/bot_waypoint.h
+[1.872s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.872s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail
+[1.872s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail/bot_waypoint__functions.c
+[1.872s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail/bot_waypoint__type_support.h
+[1.872s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail/bot_waypoint__functions.h
+[1.872s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail/bot_waypoint__struct.h
+[1.872s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/environment/library_path.sh
+[1.872s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/environment/library_path.dsv
+[1.884s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/lib/libbot_waypoint_msgs__rosidl_generator_c.so
+[1.884s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs
+[1.884s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg
+[1.884s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.884s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail
+[1.884s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail/bot_waypoint__rosidl_typesupport_fastrtps_c.h
+[1.884s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/lib/libbot_waypoint_msgs__rosidl_typesupport_fastrtps_c.so
+[1.885s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs
+[1.885s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg
+[1.885s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/bot_waypoint.hpp
+[1.885s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail
+[1.885s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail/bot_waypoint__struct.hpp
+[1.885s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail/bot_waypoint__traits.hpp
+[1.885s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail/bot_waypoint__builder.hpp
+[1.885s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs
+[1.885s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg
+[1.885s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.885s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail
+[1.885s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail/dds_fastrtps
+[1.885s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail/bot_waypoint__rosidl_typesupport_fastrtps_cpp.hpp
+[1.885s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/lib/libbot_waypoint_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.885s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs
+[1.885s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg
+[1.885s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.885s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail
+[1.885s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail/bot_waypoint__rosidl_typesupport_introspection_c.h
+[1.885s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail/bot_waypoint__type_support.c
+[1.886s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/lib/libbot_waypoint_msgs__rosidl_typesupport_introspection_c.so
+[1.886s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/lib/libbot_waypoint_msgs__rosidl_typesupport_c.so
+[1.886s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs
+[1.886s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg
+[1.886s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail
+[1.886s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail/bot_waypoint__rosidl_typesupport_introspection_cpp.hpp
+[1.886s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail/bot_waypoint__type_support.cpp
+[1.886s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/lib/libbot_waypoint_msgs__rosidl_typesupport_introspection_cpp.so
+[1.886s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/lib/libbot_waypoint_msgs__rosidl_typesupport_cpp.so
+[1.886s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/environment/pythonpath.sh
+[1.886s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/environment/pythonpath.dsv
+[1.886s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs-0.0.0-py3.10.egg-info
+[1.886s] -- Installing: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[1.886s] -- Installing: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[1.886s] -- Installing: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.886s] -- Installing: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.886s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs
+[1.886s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/libbot_waypoint_msgs__rosidl_generator_py.so
+[1.886s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/bot_waypoint_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.886s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/_bot_waypoint_msgs_s.ep.rosidl_typesupport_c.c
+[1.886s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/bot_waypoint_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.887s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/msg
+[1.887s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/msg/_bot_waypoint_s.c
+[1.887s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/msg/_bot_waypoint.py
+[1.887s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/msg/__init__.py
+[1.887s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/bot_waypoint_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.887s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/_bot_waypoint_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.887s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/_bot_waypoint_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.887s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/__init__.py
+[1.995s] Listing '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs'...
+[1.996s] Listing '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/msg'...
+[2.005s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/bot_waypoint_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.006s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/bot_waypoint_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.008s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/bot_waypoint_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.009s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/lib/libbot_waypoint_msgs__rosidl_generator_py.so
+[2.009s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/msg/BotWaypoint.idl
+[2.009s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/msg/BotWaypoint.msg
+[2.012s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/ament_index/resource_index/package_run_dependencies/bot_waypoint_msgs
+[2.013s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/ament_index/resource_index/parent_prefix_path/bot_waypoint_msgs
+[2.013s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/environment/ament_prefix_path.sh
+[2.013s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/environment/ament_prefix_path.dsv
+[2.013s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/environment/path.sh
+[2.013s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/environment/path.dsv
+[2.013s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/local_setup.bash
+[2.013s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/local_setup.sh
+[2.013s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/local_setup.zsh
+[2.013s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/local_setup.dsv
+[2.014s] -- Installing: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/package.dsv
+[2.014s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/ament_index/resource_index/packages/bot_waypoint_msgs
+[2.014s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/export_bot_waypoint_msgs__rosidl_generator_cExport.cmake
+[2.014s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/export_bot_waypoint_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.014s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/export_bot_waypoint_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.028s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/export_bot_waypoint_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.028s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/export_bot_waypoint_msgs__rosidl_generator_cppExport.cmake
+[2.028s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/export_bot_waypoint_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.028s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/export_bot_waypoint_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.028s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/bot_waypoint_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.028s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/bot_waypoint_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.028s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/bot_waypoint_msgs__rosidl_typesupport_cExport.cmake
+[2.036s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/bot_waypoint_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.038s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/bot_waypoint_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.038s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/bot_waypoint_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.038s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/bot_waypoint_msgs__rosidl_typesupport_cppExport.cmake
+[2.038s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/bot_waypoint_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.038s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/export_bot_waypoint_msgs__rosidl_generator_pyExport.cmake
+[2.038s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/export_bot_waypoint_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.038s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/rosidl_cmake-extras.cmake
+[2.038s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.038s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.038s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.038s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.038s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.038s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.038s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/bot_waypoint_msgsConfig.cmake
+[2.038s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/bot_waypoint_msgsConfig-version.cmake
+[2.038s] -- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/package.xml
+[2.039s] Invoked command in '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/bot_waypoint_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_ws2/install/turtlebot3_teleop:/home/vboxuser/ros2_ws2/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/bot_waypoint_msgs

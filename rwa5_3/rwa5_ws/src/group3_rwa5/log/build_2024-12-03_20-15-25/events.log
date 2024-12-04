@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.000239] (group3_rwa5) JobQueued: {'identifier': 'group3_rwa5', 'dependencies': OrderedDict()}
+[0.000328] (group3_rwa5) JobStarted: {'identifier': 'group3_rwa5'}
+[0.021187] (group3_rwa5) JobEnded: {'identifier': 'group3_rwa5', 'rc': 1}
+[0.031737] (-) EventReactorShutdown: {}

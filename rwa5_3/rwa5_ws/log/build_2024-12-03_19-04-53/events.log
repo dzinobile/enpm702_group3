@@ -1,0 +1,492 @@
+[0.000000] (-) TimerEvent: {}
+[0.000865] (bot_waypoint_msgs) JobQueued: {'identifier': 'bot_waypoint_msgs', 'dependencies': OrderedDict()}
+[0.000993] (group3_rwa5) JobQueued: {'identifier': 'group3_rwa5', 'dependencies': OrderedDict([('bot_waypoint_msgs', '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs')])}
+[0.001028] (bot_waypoint_msgs) JobStarted: {'identifier': 'bot_waypoint_msgs'}
+[0.019317] (bot_waypoint_msgs) JobProgress: {'identifier': 'bot_waypoint_msgs', 'progress': 'cmake'}
+[0.025613] (bot_waypoint_msgs) JobProgress: {'identifier': 'bot_waypoint_msgs', 'progress': 'build'}
+[0.025698] (bot_waypoint_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/bot_waypoint_msgs', '--', '-j2', '-l2'], 'cwd': '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/bot_waypoint_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vboxuser/ros2_ws2/install/turtlebot3_msgs/lib:/home/vboxuser/ros2_ws2/install/dynamixel_sdk_custom_interfaces/lib:/home/vboxuser/ros2_ws2/install/dynamixel_sdk/lib:/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('OLDPWD', '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1979'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install:/home/vboxuser/Desktop/practice_ws/install:/home/vboxuser/ros2_ws2/install:/home/vboxuser/ros2_ws/enpm702_fall2024_ros/install:/home/vboxuser/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/vboxuser/ros2_ws2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/thinkpad:@/tmp/.ICE-unix/1948,unix/thinkpad:/tmp/.ICE-unix/1948'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/416b8436_0f5a_47d8_82ff_68c0099658c7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.00B4X2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.208'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vboxuser/ros2_ws2/install/turtlebot3:/home/vboxuser/ros2_ws2/install/turtlebot3_teleop:/home/vboxuser/ros2_ws2/install/turtlebot3_simulations:/home/vboxuser/ros2_ws2/install/turtlebot3_bringup:/home/vboxuser/ros2_ws2/install/turtlebot3_node:/home/vboxuser/ros2_ws2/install/turtlebot3_navigation2:/home/vboxuser/ros2_ws2/install/turtlebot3_fake_node:/home/vboxuser/ros2_ws2/install/turtlebot3_example:/home/vboxuser/ros2_ws2/install/turtlebot3_msgs:/home/vboxuser/ros2_ws2/install/turtlebot3_gazebo:/home/vboxuser/ros2_ws2/install/turtlebot3_description:/home/vboxuser/ros2_ws2/install/turtlebot3_cartographer:/home/vboxuser/ros2_ws2/install/ld08_driver:/home/vboxuser/ros2_ws2/install/hls_lfcd_lds_driver:/home/vboxuser/ros2_ws2/install/first_package:/home/vboxuser/ros2_ws2/install/dynamixel_sdk_examples:/home/vboxuser/ros2_ws2/install/dynamixel_sdk_custom_interfaces:/home/vboxuser/ros2_ws2/install/dynamixel_sdk:/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5:/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs:/home/vboxuser/Desktop/practice_ws/install/practice_package:/home/vboxuser/Desktop/practice_ws/install/first_package:/home/vboxuser/Desktop/practice_ws/install/bot_pub_practice:/home/vboxuser/ros2_ws/enpm702_fall2024_ros/install/qos_subscriber_demo:/home/vboxuser/ros2_ws/enpm702_fall2024_ros/install/qos_publisher_demo:/home/vboxuser/ros2_ws/install/launch_file_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/bot_waypoint_msgs'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vboxuser/ros2_ws2/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/vboxuser/ros2_ws2/install/turtlebot3_example/lib/python3.10/site-packages:/home/vboxuser/ros2_ws2/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/vboxuser/ros2_ws2/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/ros2_ws2/install/turtlebot3:/home/vboxuser/ros2_ws2/install/turtlebot3_simulations:/home/vboxuser/ros2_ws2/install/turtlebot3_bringup:/home/vboxuser/ros2_ws2/install/turtlebot3_node:/home/vboxuser/ros2_ws2/install/turtlebot3_navigation2:/home/vboxuser/ros2_ws2/install/turtlebot3_fake_node:/home/vboxuser/ros2_ws2/install/turtlebot3_msgs:/home/vboxuser/ros2_ws2/install/turtlebot3_gazebo:/home/vboxuser/ros2_ws2/install/turtlebot3_description:/home/vboxuser/ros2_ws2/install/turtlebot3_cartographer:/home/vboxuser/ros2_ws2/install/ld08_driver:/home/vboxuser/ros2_ws2/install/hls_lfcd_lds_driver:/home/vboxuser/ros2_ws2/install/first_package:/home/vboxuser/ros2_ws2/install/dynamixel_sdk_examples:/home/vboxuser/ros2_ws2/install/dynamixel_sdk_custom_interfaces:/home/vboxuser/ros2_ws2/install/dynamixel_sdk:/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5:/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs:/home/vboxuser/Desktop/practice_ws/install/practice_package:/home/vboxuser/Desktop/practice_ws/install/first_package:/home/vboxuser/Desktop/practice_ws/install/bot_pub_practice:/home/vboxuser/ros2_ws/enpm702_fall2024_ros/install/qos_subscriber_demo:/home/vboxuser/ros2_ws/enpm702_fall2024_ros/install/qos_publisher_demo:/home/vboxuser/ros2_ws/install/launch_file_demo:/home/vboxuser/ros2_ws2/install/turtlebot3_teleop:/home/vboxuser/ros2_ws2/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.101952] (-) TimerEvent: {}
+[0.163387] (bot_waypoint_msgs) StdoutLine: {'line': b'[  3%] Built target bot_waypoint_msgs__cpp\n'}
+[0.202107] (-) TimerEvent: {}
+[0.206382] (bot_waypoint_msgs) StdoutLine: {'line': b'[ 12%] Built target bot_waypoint_msgs__rosidl_generator_c\n'}
+[0.256360] (bot_waypoint_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_bot_waypoint_msgs\n'}
+[0.298700] (bot_waypoint_msgs) StdoutLine: {'line': b'[ 22%] Built target bot_waypoint_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.302873] (-) TimerEvent: {}
+[0.338394] (bot_waypoint_msgs) StdoutLine: {'line': b'[ 32%] Built target bot_waypoint_msgs__rosidl_typesupport_cpp\n'}
+[0.384040] (bot_waypoint_msgs) StdoutLine: {'line': b'[ 41%] Built target bot_waypoint_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.403314] (-) TimerEvent: {}
+[0.420769] (bot_waypoint_msgs) StdoutLine: {'line': b'[ 51%] Built target bot_waypoint_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.492289] (bot_waypoint_msgs) StdoutLine: {'line': b'[ 61%] Built target bot_waypoint_msgs__rosidl_typesupport_introspection_c\n'}
+[0.503771] (-) TimerEvent: {}
+[0.556888] (bot_waypoint_msgs) StdoutLine: {'line': b'[ 70%] Built target bot_waypoint_msgs__rosidl_typesupport_c\n'}
+[0.613287] (-) TimerEvent: {}
+[0.758548] (-) TimerEvent: {}
+[0.827867] (bot_waypoint_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.830822] (bot_waypoint_msgs) StdoutLine: {'line': b'writing bot_waypoint_msgs.egg-info/PKG-INFO\n'}
+[0.832127] (bot_waypoint_msgs) StdoutLine: {'line': b'writing dependency_links to bot_waypoint_msgs.egg-info/dependency_links.txt\n'}
+[0.832754] (bot_waypoint_msgs) StdoutLine: {'line': b'writing top-level names to bot_waypoint_msgs.egg-info/top_level.txt\n'}
+[0.832825] (bot_waypoint_msgs) StdoutLine: {'line': b"reading manifest file 'bot_waypoint_msgs.egg-info/SOURCES.txt'\n"}
+[0.832884] (bot_waypoint_msgs) StdoutLine: {'line': b"writing manifest file 'bot_waypoint_msgs.egg-info/SOURCES.txt'\n"}
+[0.860821] (-) TimerEvent: {}
+[0.863366] (bot_waypoint_msgs) StdoutLine: {'line': b'[ 70%] Built target ament_cmake_python_build_bot_waypoint_msgs_egg\n'}
+[0.900004] (bot_waypoint_msgs) StdoutLine: {'line': b'[ 70%] Built target bot_waypoint_msgs\n'}
+[0.938910] (bot_waypoint_msgs) StdoutLine: {'line': b'[ 74%] Built target bot_waypoint_msgs__py\n'}
+[0.961302] (-) TimerEvent: {}
+[0.971113] (bot_waypoint_msgs) StdoutLine: {'line': b'[ 80%] Built target bot_waypoint_msgs__rosidl_generator_py\n'}
+[1.036351] (bot_waypoint_msgs) StdoutLine: {'line': b'[ 87%] Built target bot_waypoint_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.061586] (-) TimerEvent: {}
+[1.083020] (bot_waypoint_msgs) StdoutLine: {'line': b'[ 93%] Built target bot_waypoint_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[1.124793] (bot_waypoint_msgs) StdoutLine: {'line': b'[100%] Built target bot_waypoint_msgs__rosidl_typesupport_c__pyext\n'}
+[1.142505] (bot_waypoint_msgs) CommandEnded: {'returncode': 0}
+[1.143869] (bot_waypoint_msgs) JobProgress: {'identifier': 'bot_waypoint_msgs', 'progress': 'install'}
+[1.158570] (bot_waypoint_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/bot_waypoint_msgs'], 'cwd': '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/bot_waypoint_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vboxuser/ros2_ws2/install/turtlebot3_msgs/lib:/home/vboxuser/ros2_ws2/install/dynamixel_sdk_custom_interfaces/lib:/home/vboxuser/ros2_ws2/install/dynamixel_sdk/lib:/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('OLDPWD', '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1979'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install:/home/vboxuser/Desktop/practice_ws/install:/home/vboxuser/ros2_ws2/install:/home/vboxuser/ros2_ws/enpm702_fall2024_ros/install:/home/vboxuser/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/vboxuser/ros2_ws2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/thinkpad:@/tmp/.ICE-unix/1948,unix/thinkpad:/tmp/.ICE-unix/1948'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/416b8436_0f5a_47d8_82ff_68c0099658c7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.00B4X2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.208'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vboxuser/ros2_ws2/install/turtlebot3:/home/vboxuser/ros2_ws2/install/turtlebot3_teleop:/home/vboxuser/ros2_ws2/install/turtlebot3_simulations:/home/vboxuser/ros2_ws2/install/turtlebot3_bringup:/home/vboxuser/ros2_ws2/install/turtlebot3_node:/home/vboxuser/ros2_ws2/install/turtlebot3_navigation2:/home/vboxuser/ros2_ws2/install/turtlebot3_fake_node:/home/vboxuser/ros2_ws2/install/turtlebot3_example:/home/vboxuser/ros2_ws2/install/turtlebot3_msgs:/home/vboxuser/ros2_ws2/install/turtlebot3_gazebo:/home/vboxuser/ros2_ws2/install/turtlebot3_description:/home/vboxuser/ros2_ws2/install/turtlebot3_cartographer:/home/vboxuser/ros2_ws2/install/ld08_driver:/home/vboxuser/ros2_ws2/install/hls_lfcd_lds_driver:/home/vboxuser/ros2_ws2/install/first_package:/home/vboxuser/ros2_ws2/install/dynamixel_sdk_examples:/home/vboxuser/ros2_ws2/install/dynamixel_sdk_custom_interfaces:/home/vboxuser/ros2_ws2/install/dynamixel_sdk:/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5:/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs:/home/vboxuser/Desktop/practice_ws/install/practice_package:/home/vboxuser/Desktop/practice_ws/install/first_package:/home/vboxuser/Desktop/practice_ws/install/bot_pub_practice:/home/vboxuser/ros2_ws/enpm702_fall2024_ros/install/qos_subscriber_demo:/home/vboxuser/ros2_ws/enpm702_fall2024_ros/install/qos_publisher_demo:/home/vboxuser/ros2_ws/install/launch_file_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/bot_waypoint_msgs'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vboxuser/ros2_ws2/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/vboxuser/ros2_ws2/install/turtlebot3_example/lib/python3.10/site-packages:/home/vboxuser/ros2_ws2/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/vboxuser/ros2_ws2/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/ros2_ws2/install/turtlebot3:/home/vboxuser/ros2_ws2/install/turtlebot3_simulations:/home/vboxuser/ros2_ws2/install/turtlebot3_bringup:/home/vboxuser/ros2_ws2/install/turtlebot3_node:/home/vboxuser/ros2_ws2/install/turtlebot3_navigation2:/home/vboxuser/ros2_ws2/install/turtlebot3_fake_node:/home/vboxuser/ros2_ws2/install/turtlebot3_msgs:/home/vboxuser/ros2_ws2/install/turtlebot3_gazebo:/home/vboxuser/ros2_ws2/install/turtlebot3_description:/home/vboxuser/ros2_ws2/install/turtlebot3_cartographer:/home/vboxuser/ros2_ws2/install/ld08_driver:/home/vboxuser/ros2_ws2/install/hls_lfcd_lds_driver:/home/vboxuser/ros2_ws2/install/first_package:/home/vboxuser/ros2_ws2/install/dynamixel_sdk_examples:/home/vboxuser/ros2_ws2/install/dynamixel_sdk_custom_interfaces:/home/vboxuser/ros2_ws2/install/dynamixel_sdk:/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5:/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs:/home/vboxuser/Desktop/practice_ws/install/practice_package:/home/vboxuser/Desktop/practice_ws/install/first_package:/home/vboxuser/Desktop/practice_ws/install/bot_pub_practice:/home/vboxuser/ros2_ws/enpm702_fall2024_ros/install/qos_subscriber_demo:/home/vboxuser/ros2_ws/enpm702_fall2024_ros/install/qos_publisher_demo:/home/vboxuser/ros2_ws/install/launch_file_demo:/home/vboxuser/ros2_ws2/install/turtlebot3_teleop:/home/vboxuser/ros2_ws2/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[1.161866] (-) TimerEvent: {}
+[1.166165] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.166657] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/ament_index/resource_index/rosidl_interfaces/bot_waypoint_msgs\n'}
+[1.166825] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs\n'}
+[1.166953] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg\n'}
+[1.167066] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/bot_waypoint.h\n'}
+[1.167165] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.167253] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail\n'}
+[1.167356] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail/bot_waypoint__functions.c\n'}
+[1.167453] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail/bot_waypoint__type_support.h\n'}
+[1.167587] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail/bot_waypoint__functions.h\n'}
+[1.167726] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail/bot_waypoint__struct.h\n'}
+[1.167851] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/environment/library_path.sh\n'}
+[1.168058] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/environment/library_path.dsv\n'}
+[1.168137] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/lib/libbot_waypoint_msgs__rosidl_generator_c.so\n'}
+[1.168340] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs\n'}
+[1.168605] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg\n'}
+[1.168827] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.168890] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail\n'}
+[1.168930] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail/bot_waypoint__rosidl_typesupport_fastrtps_c.h\n'}
+[1.169125] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/lib/libbot_waypoint_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.169195] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs\n'}
+[1.169285] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg\n'}
+[1.169376] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/bot_waypoint.hpp\n'}
+[1.169514] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail\n'}
+[1.169646] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail/bot_waypoint__struct.hpp\n'}
+[1.169689] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail/bot_waypoint__traits.hpp\n'}
+[1.169809] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail/bot_waypoint__builder.hpp\n'}
+[1.169908] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs\n'}
+[1.170002] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg\n'}
+[1.170060] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.170173] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail\n'}
+[1.170231] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail/dds_fastrtps\n'}
+[1.170319] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail/bot_waypoint__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.170507] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/lib/libbot_waypoint_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.170740] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs\n'}
+[1.170849] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg\n'}
+[1.170906] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.171025] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail\n'}
+[1.171440] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail/bot_waypoint__rosidl_typesupport_introspection_c.h\n'}
+[1.171495] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail/bot_waypoint__type_support.c\n'}
+[1.171745] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/lib/libbot_waypoint_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.171818] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/lib/libbot_waypoint_msgs__rosidl_typesupport_c.so\n'}
+[1.172017] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs\n'}
+[1.172138] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg\n'}
+[1.172292] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail\n'}
+[1.172337] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail/bot_waypoint__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.172524] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/include/bot_waypoint_msgs/bot_waypoint_msgs/msg/detail/bot_waypoint__type_support.cpp\n'}
+[1.172593] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/lib/libbot_waypoint_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.172990] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/lib/libbot_waypoint_msgs__rosidl_typesupport_cpp.so\n'}
+[1.173080] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/environment/pythonpath.sh\n'}
+[1.173194] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/environment/pythonpath.dsv\n'}
+[1.173326] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs-0.0.0-py3.10.egg-info\n'}
+[1.173595] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.173672] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.173928] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.174120] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.174382] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs\n'}
+[1.174489] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/libbot_waypoint_msgs__rosidl_generator_py.so\n'}
+[1.174546] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/bot_waypoint_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.174628] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/_bot_waypoint_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[1.174738] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/bot_waypoint_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.174797] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/msg\n'}
+[1.174910] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/msg/_bot_waypoint_s.c\n'}
+[1.175032] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/msg/_bot_waypoint.py\n'}
+[1.175089] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/msg/__init__.py\n'}
+[1.175174] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/bot_waypoint_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.175256] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/_bot_waypoint_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.175342] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/_bot_waypoint_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.175419] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/__init__.py\n'}
+[1.205274] (bot_waypoint_msgs) StdoutLine: {'line': b"Listing '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs'...\n"}
+[1.205615] (bot_waypoint_msgs) StdoutLine: {'line': b"Listing '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/msg'...\n"}
+[1.209578] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/bot_waypoint_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.210340] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/bot_waypoint_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.210706] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages/bot_waypoint_msgs/bot_waypoint_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.211052] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/lib/libbot_waypoint_msgs__rosidl_generator_py.so\n'}
+[1.211300] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/msg/BotWaypoint.idl\n'}
+[1.211445] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/msg/BotWaypoint.msg\n'}
+[1.211583] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/ament_index/resource_index/package_run_dependencies/bot_waypoint_msgs\n'}
+[1.211719] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/ament_index/resource_index/parent_prefix_path/bot_waypoint_msgs\n'}
+[1.211857] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/environment/ament_prefix_path.sh\n'}
+[1.211991] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/environment/ament_prefix_path.dsv\n'}
+[1.212180] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/environment/path.sh\n'}
+[1.212541] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/environment/path.dsv\n'}
+[1.212647] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/local_setup.bash\n'}
+[1.212786] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/local_setup.sh\n'}
+[1.212915] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/local_setup.zsh\n'}
+[1.213043] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/local_setup.dsv\n'}
+[1.213370] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/package.dsv\n'}
+[1.213463] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/ament_index/resource_index/packages/bot_waypoint_msgs\n'}
+[1.213659] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/export_bot_waypoint_msgs__rosidl_generator_cExport.cmake\n'}
+[1.213801] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/export_bot_waypoint_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.213973] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/export_bot_waypoint_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.214120] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/export_bot_waypoint_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.214288] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/export_bot_waypoint_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.214460] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/export_bot_waypoint_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.214589] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/export_bot_waypoint_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.214756] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/bot_waypoint_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.214969] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/bot_waypoint_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.215052] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/bot_waypoint_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.215175] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/bot_waypoint_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.215349] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/bot_waypoint_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.215553] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/bot_waypoint_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.215688] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/bot_waypoint_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.215754] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/bot_waypoint_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.215906] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/export_bot_waypoint_msgs__rosidl_generator_pyExport.cmake\n'}
+[1.216025] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/export_bot_waypoint_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.216183] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[1.216251] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.216362] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.216477] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.216596] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.216707] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.216818] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.216929] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/bot_waypoint_msgsConfig.cmake\n'}
+[1.217019] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/cmake/bot_waypoint_msgsConfig-version.cmake\n'}
+[1.217133] (bot_waypoint_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/share/bot_waypoint_msgs/package.xml\n'}
+[1.222929] (bot_waypoint_msgs) CommandEnded: {'returncode': 0}
+[1.263402] (-) TimerEvent: {}
+[1.264467] (bot_waypoint_msgs) JobEnded: {'identifier': 'bot_waypoint_msgs', 'rc': 0}
+[1.265659] (group3_rwa5) JobStarted: {'identifier': 'group3_rwa5'}
+[1.287748] (group3_rwa5) JobProgress: {'identifier': 'group3_rwa5', 'progress': 'cmake'}
+[1.296451] (group3_rwa5) JobProgress: {'identifier': 'group3_rwa5', 'progress': 'build'}
+[1.296728] (group3_rwa5) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/group3_rwa5', '--', '-j2', '-l2'], 'cwd': '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/group3_rwa5', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/lib:/home/vboxuser/ros2_ws2/install/turtlebot3_msgs/lib:/home/vboxuser/ros2_ws2/install/dynamixel_sdk_custom_interfaces/lib:/home/vboxuser/ros2_ws2/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('OLDPWD', '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1979'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install:/home/vboxuser/Desktop/practice_ws/install:/home/vboxuser/ros2_ws2/install:/home/vboxuser/ros2_ws/enpm702_fall2024_ros/install:/home/vboxuser/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/vboxuser/ros2_ws2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/thinkpad:@/tmp/.ICE-unix/1948,unix/thinkpad:/tmp/.ICE-unix/1948'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/416b8436_0f5a_47d8_82ff_68c0099658c7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.00B4X2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.208'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vboxuser/ros2_ws2/install/turtlebot3:/home/vboxuser/ros2_ws2/install/turtlebot3_teleop:/home/vboxuser/ros2_ws2/install/turtlebot3_simulations:/home/vboxuser/ros2_ws2/install/turtlebot3_bringup:/home/vboxuser/ros2_ws2/install/turtlebot3_node:/home/vboxuser/ros2_ws2/install/turtlebot3_navigation2:/home/vboxuser/ros2_ws2/install/turtlebot3_fake_node:/home/vboxuser/ros2_ws2/install/turtlebot3_example:/home/vboxuser/ros2_ws2/install/turtlebot3_msgs:/home/vboxuser/ros2_ws2/install/turtlebot3_gazebo:/home/vboxuser/ros2_ws2/install/turtlebot3_description:/home/vboxuser/ros2_ws2/install/turtlebot3_cartographer:/home/vboxuser/ros2_ws2/install/ld08_driver:/home/vboxuser/ros2_ws2/install/hls_lfcd_lds_driver:/home/vboxuser/ros2_ws2/install/first_package:/home/vboxuser/ros2_ws2/install/dynamixel_sdk_examples:/home/vboxuser/ros2_ws2/install/dynamixel_sdk_custom_interfaces:/home/vboxuser/ros2_ws2/install/dynamixel_sdk:/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5:/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs:/home/vboxuser/Desktop/practice_ws/install/practice_package:/home/vboxuser/Desktop/practice_ws/install/first_package:/home/vboxuser/Desktop/practice_ws/install/bot_pub_practice:/home/vboxuser/ros2_ws/enpm702_fall2024_ros/install/qos_subscriber_demo:/home/vboxuser/ros2_ws/enpm702_fall2024_ros/install/qos_publisher_demo:/home/vboxuser/ros2_ws/install/launch_file_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/group3_rwa5'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vboxuser/ros2_ws2/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/vboxuser/ros2_ws2/install/turtlebot3_example/lib/python3.10/site-packages:/home/vboxuser/ros2_ws2/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/vboxuser/ros2_ws2/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs:/home/vboxuser/ros2_ws2/install/turtlebot3:/home/vboxuser/ros2_ws2/install/turtlebot3_simulations:/home/vboxuser/ros2_ws2/install/turtlebot3_bringup:/home/vboxuser/ros2_ws2/install/turtlebot3_node:/home/vboxuser/ros2_ws2/install/turtlebot3_navigation2:/home/vboxuser/ros2_ws2/install/turtlebot3_fake_node:/home/vboxuser/ros2_ws2/install/turtlebot3_msgs:/home/vboxuser/ros2_ws2/install/turtlebot3_gazebo:/home/vboxuser/ros2_ws2/install/turtlebot3_description:/home/vboxuser/ros2_ws2/install/turtlebot3_cartographer:/home/vboxuser/ros2_ws2/install/ld08_driver:/home/vboxuser/ros2_ws2/install/hls_lfcd_lds_driver:/home/vboxuser/ros2_ws2/install/first_package:/home/vboxuser/ros2_ws2/install/dynamixel_sdk_examples:/home/vboxuser/ros2_ws2/install/dynamixel_sdk_custom_interfaces:/home/vboxuser/ros2_ws2/install/dynamixel_sdk:/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5:/home/vboxuser/Desktop/practice_ws/install/practice_package:/home/vboxuser/Desktop/practice_ws/install/first_package:/home/vboxuser/Desktop/practice_ws/install/bot_pub_practice:/home/vboxuser/ros2_ws/enpm702_fall2024_ros/install/qos_subscriber_demo:/home/vboxuser/ros2_ws/enpm702_fall2024_ros/install/qos_publisher_demo:/home/vboxuser/ros2_ws/install/launch_file_demo:/home/vboxuser/ros2_ws2/install/turtlebot3_teleop:/home/vboxuser/ros2_ws2/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[1.365338] (group3_rwa5) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target group3_rwa5\x1b[0m\n'}
+[1.365629] (-) TimerEvent: {}
+[1.443976] (group3_rwa5) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/group3_rwa5.dir/src/main.cpp.o\x1b[0m\n'}
+[1.470885] (-) TimerEvent: {}
+[2.228862] (-) TimerEvent: {}
+[2.359167] (-) TimerEvent: {}
+[3.229465] (-) TimerEvent: {}
+[3.334553] (-) TimerEvent: {}
+[4.081897] (-) TimerEvent: {}
+[4.185984] (-) TimerEvent: {}
+[4.217392] (group3_rwa5) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/group3_rwa5.dir/src/waypoint_publisher.cpp.o\x1b[0m\n'}
+[5.246747] (-) TimerEvent: {}
+[5.348741] (-) TimerEvent: {}
+[5.455801] (-) TimerEvent: {}
+[5.727668] (-) TimerEvent: {}
+[5.830661] (-) TimerEvent: {}
+[6.136182] (-) TimerEvent: {}
+[6.264735] (-) TimerEvent: {}
+[6.366243] (-) TimerEvent: {}
+[6.479586] (-) TimerEvent: {}
+[6.607427] (-) TimerEvent: {}
+[6.709320] (-) TimerEvent: {}
+[6.810685] (-) TimerEvent: {}
+[6.911281] (-) TimerEvent: {}
+[7.013569] (-) TimerEvent: {}
+[7.114903] (-) TimerEvent: {}
+[7.215405] (-) TimerEvent: {}
+[7.317093] (-) TimerEvent: {}
+[7.419852] (-) TimerEvent: {}
+[7.522407] (-) TimerEvent: {}
+[7.623856] (-) TimerEvent: {}
+[7.724957] (-) TimerEvent: {}
+[7.826381] (-) TimerEvent: {}
+[7.929020] (-) TimerEvent: {}
+[8.196515] (-) TimerEvent: {}
+[8.297053] (-) TimerEvent: {}
+[9.228867] (-) TimerEvent: {}
+[9.332689] (-) TimerEvent: {}
+[10.247228] (-) TimerEvent: {}
+[10.348850] (-) TimerEvent: {}
+[10.453807] (-) TimerEvent: {}
+[10.557659] (-) TimerEvent: {}
+[10.658693] (-) TimerEvent: {}
+[10.759730] (-) TimerEvent: {}
+[10.861551] (-) TimerEvent: {}
+[10.982466] (-) TimerEvent: {}
+[11.084243] (-) TimerEvent: {}
+[11.300855] (-) TimerEvent: {}
+[11.478785] (-) TimerEvent: {}
+[11.580965] (-) TimerEvent: {}
+[11.681966] (-) TimerEvent: {}
+[11.782931] (-) TimerEvent: {}
+[11.890713] (-) TimerEvent: {}
+[12.003937] (-) TimerEvent: {}
+[12.249245] (-) TimerEvent: {}
+[12.350782] (-) TimerEvent: {}
+[13.450866] (-) TimerEvent: {}
+[13.553207] (-) TimerEvent: {}
+[13.661797] (-) TimerEvent: {}
+[13.767325] (-) TimerEvent: {}
+[13.868183] (-) TimerEvent: {}
+[13.987926] (-) TimerEvent: {}
+[14.354053] (-) TimerEvent: {}
+[14.457760] (-) TimerEvent: {}
+[14.565064] (-) TimerEvent: {}
+[14.669129] (-) TimerEvent: {}
+[14.770600] (-) TimerEvent: {}
+[15.273423] (-) TimerEvent: {}
+[15.381977] (-) TimerEvent: {}
+[15.946584] (-) TimerEvent: {}
+[16.073355] (-) TimerEvent: {}
+[16.180480] (-) TimerEvent: {}
+[16.291072] (-) TimerEvent: {}
+[16.432394] (-) TimerEvent: {}
+[16.535126] (-) TimerEvent: {}
+[16.772938] (-) TimerEvent: {}
+[17.006896] (-) TimerEvent: {}
+[17.107601] (-) TimerEvent: {}
+[17.209142] (-) TimerEvent: {}
+[17.310306] (-) TimerEvent: {}
+[17.412927] (-) TimerEvent: {}
+[17.518141] (-) TimerEvent: {}
+[17.620100] (-) TimerEvent: {}
+[17.724457] (-) TimerEvent: {}
+[17.832987] (-) TimerEvent: {}
+[17.941667] (-) TimerEvent: {}
+[18.048311] (-) TimerEvent: {}
+[18.274809] (-) TimerEvent: {}
+[18.375549] (-) TimerEvent: {}
+[18.476818] (-) TimerEvent: {}
+[18.582626] (-) TimerEvent: {}
+[18.683433] (-) TimerEvent: {}
+[18.795924] (-) TimerEvent: {}
+[18.897195] (-) TimerEvent: {}
+[18.998561] (-) TimerEvent: {}
+[19.106245] (-) TimerEvent: {}
+[19.288739] (-) TimerEvent: {}
+[19.457355] (-) TimerEvent: {}
+[19.562715] (-) TimerEvent: {}
+[20.198431] (-) TimerEvent: {}
+[20.299416] (-) TimerEvent: {}
+[20.406001] (-) TimerEvent: {}
+[20.985408] (-) TimerEvent: {}
+[21.089207] (-) TimerEvent: {}
+[21.190350] (-) TimerEvent: {}
+[21.217016] (group3_rwa5) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/group3_rwa5.dir/src/waypoint_reacher.cpp.o\x1b[0m\n'}
+[21.290962] (-) TimerEvent: {}
+[21.400857] (-) TimerEvent: {}
+[21.501591] (-) TimerEvent: {}
+[21.602826] (-) TimerEvent: {}
+[21.703993] (-) TimerEvent: {}
+[21.808155] (-) TimerEvent: {}
+[21.913748] (-) TimerEvent: {}
+[22.018275] (-) TimerEvent: {}
+[22.310510] (-) TimerEvent: {}
+[22.473060] (-) TimerEvent: {}
+[22.573822] (-) TimerEvent: {}
+[22.675276] (-) TimerEvent: {}
+[22.776414] (-) TimerEvent: {}
+[23.114311] (-) TimerEvent: {}
+[23.215724] (-) TimerEvent: {}
+[24.287932] (-) TimerEvent: {}
+[24.402986] (-) TimerEvent: {}
+[24.503922] (-) TimerEvent: {}
+[24.630050] (-) TimerEvent: {}
+[24.732538] (-) TimerEvent: {}
+[24.833288] (-) TimerEvent: {}
+[24.935857] (-) TimerEvent: {}
+[25.241108] (-) TimerEvent: {}
+[25.345107] (-) TimerEvent: {}
+[25.446823] (-) TimerEvent: {}
+[26.245349] (-) TimerEvent: {}
+[26.346446] (-) TimerEvent: {}
+[26.447404] (-) TimerEvent: {}
+[26.553678] (-) TimerEvent: {}
+[26.657840] (-) TimerEvent: {}
+[26.765097] (-) TimerEvent: {}
+[26.868980] (-) TimerEvent: {}
+[26.979475] (-) TimerEvent: {}
+[27.080940] (-) TimerEvent: {}
+[27.184621] (-) TimerEvent: {}
+[27.299170] (-) TimerEvent: {}
+[28.081893] (-) TimerEvent: {}
+[28.191146] (-) TimerEvent: {}
+[29.237573] (-) TimerEvent: {}
+[29.448671] (-) TimerEvent: {}
+[29.550046] (-) TimerEvent: {}
+[29.758334] (-) TimerEvent: {}
+[29.861459] (-) TimerEvent: {}
+[29.963786] (-) TimerEvent: {}
+[30.066450] (-) TimerEvent: {}
+[30.172555] (-) TimerEvent: {}
+[30.273636] (-) TimerEvent: {}
+[30.384485] (-) TimerEvent: {}
+[32.236172] (-) TimerEvent: {}
+[32.339046] (-) TimerEvent: {}
+[32.440578] (-) TimerEvent: {}
+[32.542378] (-) TimerEvent: {}
+[32.643681] (-) TimerEvent: {}
+[32.762125] (-) TimerEvent: {}
+[33.271151] (-) TimerEvent: {}
+[33.384777] (-) TimerEvent: {}
+[34.206949] (-) TimerEvent: {}
+[34.434524] (-) TimerEvent: {}
+[34.538860] (-) TimerEvent: {}
+[34.642582] (-) TimerEvent: {}
+[34.847268] (-) TimerEvent: {}
+[34.947813] (-) TimerEvent: {}
+[35.048494] (-) TimerEvent: {}
+[35.149939] (-) TimerEvent: {}
+[35.260373] (-) TimerEvent: {}
+[35.369291] (-) TimerEvent: {}
+[35.494283] (-) TimerEvent: {}
+[35.597832] (-) TimerEvent: {}
+[35.707377] (-) TimerEvent: {}
+[35.810160] (-) TimerEvent: {}
+[35.913121] (-) TimerEvent: {}
+[36.019964] (-) TimerEvent: {}
+[36.122915] (-) TimerEvent: {}
+[36.226056] (-) TimerEvent: {}
+[36.334038] (-) TimerEvent: {}
+[36.437033] (-) TimerEvent: {}
+[36.552100] (-) TimerEvent: {}
+[36.659049] (-) TimerEvent: {}
+[36.774289] (-) TimerEvent: {}
+[36.877840] (-) TimerEvent: {}
+[36.980689] (-) TimerEvent: {}
+[37.082251] (-) TimerEvent: {}
+[37.183506] (-) TimerEvent: {}
+[37.286547] (-) TimerEvent: {}
+[37.388071] (-) TimerEvent: {}
+[37.488984] (-) TimerEvent: {}
+[37.589938] (-) TimerEvent: {}
+[37.693989] (-) TimerEvent: {}
+[37.795338] (-) TimerEvent: {}
+[37.899945] (-) TimerEvent: {}
+[38.021767] (-) TimerEvent: {}
+[38.124097] (-) TimerEvent: {}
+[38.225416] (-) TimerEvent: {}
+[38.326068] (-) TimerEvent: {}
+[38.427182] (-) TimerEvent: {}
+[38.530279] (-) TimerEvent: {}
+[38.633098] (-) TimerEvent: {}
+[38.735401] (-) TimerEvent: {}
+[38.837517] (-) TimerEvent: {}
+[38.943538] (-) TimerEvent: {}
+[39.045805] (-) TimerEvent: {}
+[39.146812] (-) TimerEvent: {}
+[39.259591] (-) TimerEvent: {}
+[39.384865] (-) TimerEvent: {}
+[39.488773] (-) TimerEvent: {}
+[39.590895] (-) TimerEvent: {}
+[39.693757] (-) TimerEvent: {}
+[39.794870] (-) TimerEvent: {}
+[39.896936] (-) TimerEvent: {}
+[39.999390] (-) TimerEvent: {}
+[40.101041] (-) TimerEvent: {}
+[40.203229] (-) TimerEvent: {}
+[40.304997] (-) TimerEvent: {}
+[40.405440] (-) TimerEvent: {}
+[40.506437] (-) TimerEvent: {}
+[40.615569] (-) TimerEvent: {}
+[40.721674] (-) TimerEvent: {}
+[40.824893] (-) TimerEvent: {}
+[40.927566] (-) TimerEvent: {}
+[41.029022] (-) TimerEvent: {}
+[41.130690] (-) TimerEvent: {}
+[41.231955] (-) TimerEvent: {}
+[41.333199] (-) TimerEvent: {}
+[41.436742] (-) TimerEvent: {}
+[41.539395] (-) TimerEvent: {}
+[41.647783] (-) TimerEvent: {}
+[41.749432] (-) TimerEvent: {}
+[41.850025] (-) TimerEvent: {}
+[41.951032] (-) TimerEvent: {}
+[42.052277] (-) TimerEvent: {}
+[42.153442] (-) TimerEvent: {}
+[42.259684] (-) TimerEvent: {}
+[42.361570] (-) TimerEvent: {}
+[42.462538] (-) TimerEvent: {}
+[42.563200] (-) TimerEvent: {}
+[42.664530] (-) TimerEvent: {}
+[43.065599] (-) TimerEvent: {}
+[43.167092] (-) TimerEvent: {}
+[43.269585] (-) TimerEvent: {}
+[43.370589] (-) TimerEvent: {}
+[43.472400] (-) TimerEvent: {}
+[43.573768] (-) TimerEvent: {}
+[43.678334] (-) TimerEvent: {}
+[43.780608] (-) TimerEvent: {}
+[43.908227] (-) TimerEvent: {}
+[44.019087] (-) TimerEvent: {}
+[44.120706] (-) TimerEvent: {}
+[44.222324] (-) TimerEvent: {}
+[44.328874] (-) TimerEvent: {}
+[44.429988] (-) TimerEvent: {}
+[44.533756] (-) TimerEvent: {}
+[44.634564] (-) TimerEvent: {}
+[44.735502] (-) TimerEvent: {}
+[44.839165] (-) TimerEvent: {}
+[44.941115] (-) TimerEvent: {}
+[45.060379] (-) TimerEvent: {}
+[45.161862] (-) TimerEvent: {}
+[45.264777] (-) TimerEvent: {}
+[46.004058] (-) TimerEvent: {}
+[46.105045] (-) TimerEvent: {}
+[46.206377] (-) TimerEvent: {}
+[46.309657] (-) TimerEvent: {}
+[46.414187] (-) TimerEvent: {}
+[46.520522] (-) TimerEvent: {}
+[46.621355] (-) TimerEvent: {}
+[46.754776] (-) TimerEvent: {}
+[46.855434] (-) TimerEvent: {}
+[46.956581] (-) TimerEvent: {}
+[47.057858] (-) TimerEvent: {}
+[47.162561] (-) TimerEvent: {}
+[47.264609] (-) TimerEvent: {}
+[47.367936] (-) TimerEvent: {}
+[47.471724] (-) TimerEvent: {}
+[47.573043] (-) TimerEvent: {}
+[47.674832] (-) TimerEvent: {}
+[47.776250] (-) TimerEvent: {}
+[47.877287] (-) TimerEvent: {}
+[47.978960] (-) TimerEvent: {}
+[48.080397] (-) TimerEvent: {}
+[48.184024] (-) TimerEvent: {}
+[48.291130] (-) TimerEvent: {}
+[48.564822] (-) TimerEvent: {}
+[48.600225] (group3_rwa5) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable group3_rwa5\x1b[0m\n'}
+[48.666778] (-) TimerEvent: {}
+[48.767792] (-) TimerEvent: {}
+[48.870371] (-) TimerEvent: {}
+[48.972697] (-) TimerEvent: {}
+[49.073272] (-) TimerEvent: {}
+[49.182923] (-) TimerEvent: {}
+[49.296236] (-) TimerEvent: {}
+[49.405496] (-) TimerEvent: {}
+[49.530372] (-) TimerEvent: {}
+[49.632401] (-) TimerEvent: {}
+[49.733588] (-) TimerEvent: {}
+[49.840000] (-) TimerEvent: {}
+[49.844362] (group3_rwa5) StdoutLine: {'line': b'[100%] Built target group3_rwa5\n'}
+[49.864793] (group3_rwa5) CommandEnded: {'returncode': 0}
+[49.865412] (group3_rwa5) JobProgress: {'identifier': 'group3_rwa5', 'progress': 'install'}
+[49.865445] (group3_rwa5) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/group3_rwa5'], 'cwd': '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/group3_rwa5', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/lib:/home/vboxuser/ros2_ws2/install/turtlebot3_msgs/lib:/home/vboxuser/ros2_ws2/install/dynamixel_sdk_custom_interfaces/lib:/home/vboxuser/ros2_ws2/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('OLDPWD', '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1979'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install:/home/vboxuser/Desktop/practice_ws/install:/home/vboxuser/ros2_ws2/install:/home/vboxuser/ros2_ws/enpm702_fall2024_ros/install:/home/vboxuser/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/vboxuser/ros2_ws2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/thinkpad:@/tmp/.ICE-unix/1948,unix/thinkpad:/tmp/.ICE-unix/1948'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/416b8436_0f5a_47d8_82ff_68c0099658c7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.00B4X2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.208'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vboxuser/ros2_ws2/install/turtlebot3:/home/vboxuser/ros2_ws2/install/turtlebot3_teleop:/home/vboxuser/ros2_ws2/install/turtlebot3_simulations:/home/vboxuser/ros2_ws2/install/turtlebot3_bringup:/home/vboxuser/ros2_ws2/install/turtlebot3_node:/home/vboxuser/ros2_ws2/install/turtlebot3_navigation2:/home/vboxuser/ros2_ws2/install/turtlebot3_fake_node:/home/vboxuser/ros2_ws2/install/turtlebot3_example:/home/vboxuser/ros2_ws2/install/turtlebot3_msgs:/home/vboxuser/ros2_ws2/install/turtlebot3_gazebo:/home/vboxuser/ros2_ws2/install/turtlebot3_description:/home/vboxuser/ros2_ws2/install/turtlebot3_cartographer:/home/vboxuser/ros2_ws2/install/ld08_driver:/home/vboxuser/ros2_ws2/install/hls_lfcd_lds_driver:/home/vboxuser/ros2_ws2/install/first_package:/home/vboxuser/ros2_ws2/install/dynamixel_sdk_examples:/home/vboxuser/ros2_ws2/install/dynamixel_sdk_custom_interfaces:/home/vboxuser/ros2_ws2/install/dynamixel_sdk:/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5:/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs:/home/vboxuser/Desktop/practice_ws/install/practice_package:/home/vboxuser/Desktop/practice_ws/install/first_package:/home/vboxuser/Desktop/practice_ws/install/bot_pub_practice:/home/vboxuser/ros2_ws/enpm702_fall2024_ros/install/qos_subscriber_demo:/home/vboxuser/ros2_ws/enpm702_fall2024_ros/install/qos_publisher_demo:/home/vboxuser/ros2_ws/install/launch_file_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/build/group3_rwa5'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vboxuser/ros2_ws2/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/vboxuser/ros2_ws2/install/turtlebot3_example/lib/python3.10/site-packages:/home/vboxuser/ros2_ws2/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/vboxuser/ros2_ws2/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs:/home/vboxuser/ros2_ws2/install/turtlebot3:/home/vboxuser/ros2_ws2/install/turtlebot3_simulations:/home/vboxuser/ros2_ws2/install/turtlebot3_bringup:/home/vboxuser/ros2_ws2/install/turtlebot3_node:/home/vboxuser/ros2_ws2/install/turtlebot3_navigation2:/home/vboxuser/ros2_ws2/install/turtlebot3_fake_node:/home/vboxuser/ros2_ws2/install/turtlebot3_msgs:/home/vboxuser/ros2_ws2/install/turtlebot3_gazebo:/home/vboxuser/ros2_ws2/install/turtlebot3_description:/home/vboxuser/ros2_ws2/install/turtlebot3_cartographer:/home/vboxuser/ros2_ws2/install/ld08_driver:/home/vboxuser/ros2_ws2/install/hls_lfcd_lds_driver:/home/vboxuser/ros2_ws2/install/first_package:/home/vboxuser/ros2_ws2/install/dynamixel_sdk_examples:/home/vboxuser/ros2_ws2/install/dynamixel_sdk_custom_interfaces:/home/vboxuser/ros2_ws2/install/dynamixel_sdk:/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5:/home/vboxuser/Desktop/practice_ws/install/practice_package:/home/vboxuser/Desktop/practice_ws/install/first_package:/home/vboxuser/Desktop/practice_ws/install/bot_pub_practice:/home/vboxuser/ros2_ws/enpm702_fall2024_ros/install/qos_subscriber_demo:/home/vboxuser/ros2_ws/enpm702_fall2024_ros/install/qos_publisher_demo:/home/vboxuser/ros2_ws/install/launch_file_demo:/home/vboxuser/ros2_ws2/install/turtlebot3_teleop:/home/vboxuser/ros2_ws2/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[49.877716] (group3_rwa5) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[49.877943] (group3_rwa5) StdoutLine: {'line': b'-- Installing: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/lib/group3_rwa5/group3_rwa5\n'}
+[49.890955] (group3_rwa5) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/lib/group3_rwa5/group3_rwa5" to ""\n'}
+[49.891196] (group3_rwa5) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/ament_index/resource_index/package_run_dependencies/group3_rwa5\n'}
+[49.891280] (group3_rwa5) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/ament_index/resource_index/parent_prefix_path/group3_rwa5\n'}
+[49.891352] (group3_rwa5) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/environment/ament_prefix_path.sh\n'}
+[49.891421] (group3_rwa5) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/environment/ament_prefix_path.dsv\n'}
+[49.891500] (group3_rwa5) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/environment/path.sh\n'}
+[49.891570] (group3_rwa5) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/environment/path.dsv\n'}
+[49.891629] (group3_rwa5) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/local_setup.bash\n'}
+[49.891688] (group3_rwa5) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/local_setup.sh\n'}
+[49.891746] (group3_rwa5) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/local_setup.zsh\n'}
+[49.891804] (group3_rwa5) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/local_setup.dsv\n'}
+[49.891860] (group3_rwa5) StdoutLine: {'line': b'-- Installing: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/package.dsv\n'}
+[49.891919] (group3_rwa5) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/ament_index/resource_index/packages/group3_rwa5\n'}
+[49.891983] (group3_rwa5) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/cmake/group3_rwa5Config.cmake\n'}
+[49.892521] (group3_rwa5) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/cmake/group3_rwa5Config-version.cmake\n'}
+[49.896977] (group3_rwa5) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/package.xml\n'}
+[49.897047] (group3_rwa5) CommandEnded: {'returncode': 0}
+[49.918956] (group3_rwa5) JobEnded: {'identifier': 'group3_rwa5', 'rc': 0}
+[49.920731] (-) EventReactorShutdown: {}

@@ -1,12 +1,39 @@
 {
     "python.autoComplete.extraPaths": [
-        "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages",
-        "/home/vboxuser/ros2_ws2/install/turtlebot3_teleop/lib/python3.10/site-packages",
-        "/home/vboxuser/ros2_ws2/install/turtlebot3_example/lib/python3.10/site-packages",
-        "/home/vboxuser/ros2_ws2/install/turtlebot3_msgs/local/lib/python3.10/dist-packages",
-        "/home/vboxuser/ros2_ws2/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages",
+        "/home/khuzema/mpc_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages",
+        "/home/khuzema/ros2_ws/install/my_robot/lib/python3.10/site-packages",
+        "/home/khuzema/practice_ws/install/collision_avoidance/lib/python3.10/site-packages",
+        "/home/khuzema/testWS/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/khuzema/testWS/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/home/khuzema/testWS/install/turtlebot3_msgs/local/lib/python3.10/dist-packages",
+        "/home/khuzema/testWS/install/tb_control/lib/python3.10/site-packages",
+        "/home/khuzema/testWS/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages",
+        "/home/khuzema/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/khuzema/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/home/khuzema/install/turtlebot3_msgs/local/lib/python3.10/dist-packages",
+        "/home/khuzema/install/tb_control/lib/python3.10/site-packages",
+        "/home/khuzema/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages",
         "/opt/ros/humble/lib/python3.10/site-packages",
         "/opt/ros/humble/local/lib/python3.10/dist-packages"
     ],
-    "cmake.sourceDirectory": "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/src/bot_waypoint_msgs"
+    "python.analysis.extraPaths": [
+        "/home/khuzema/mpc_ws/install/bot_waypoint_msgs/local/lib/python3.10/dist-packages",
+        "/home/khuzema/ros2_ws/install/my_robot/lib/python3.10/site-packages",
+        "/home/khuzema/practice_ws/install/collision_avoidance/lib/python3.10/site-packages",
+        "/home/khuzema/testWS/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/khuzema/testWS/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/home/khuzema/testWS/install/turtlebot3_msgs/local/lib/python3.10/dist-packages",
+        "/home/khuzema/testWS/install/tb_control/lib/python3.10/site-packages",
+        "/home/khuzema/testWS/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages",
+        "/home/khuzema/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/khuzema/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/home/khuzema/install/turtlebot3_msgs/local/lib/python3.10/dist-packages",
+        "/home/khuzema/install/tb_control/lib/python3.10/site-packages",
+        "/home/khuzema/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "files.associations": {
+        "functional": "cpp"
+    }
 }

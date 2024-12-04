@@ -41,12 +41,12 @@ enum
 
 /// Struct defined in msg/BotWaypoint in the package bot_waypoint_msgs.
 /**
-  * the field tolerance will take only one of the three following values
+  * The field tolerance will take only one of the three following values
  */
 typedef struct bot_waypoint_msgs__msg__BotWaypoint
 {
   uint8_t tolerance;
-  /// x, y, theta
+  /// The target position (x, y) and orientation (theta) of the waypoint
   geometry_msgs__msg__Pose2D waypoint;
 } bot_waypoint_msgs__msg__BotWaypoint;
 

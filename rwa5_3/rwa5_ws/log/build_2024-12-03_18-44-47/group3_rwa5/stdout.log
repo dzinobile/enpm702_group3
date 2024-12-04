@@ -1,0 +1,22 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/group3_rwa5.dir/src/main.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/group3_rwa5.dir/src/waypoint_reacher.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable group3_rwa5[0m
+[100%] Built target group3_rwa5
+-- Install configuration: ""
+-- Installing: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/lib/group3_rwa5/group3_rwa5
+-- Set runtime path of "/home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/lib/group3_rwa5/group3_rwa5" to ""
+-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/ament_index/resource_index/package_run_dependencies/group3_rwa5
+-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/ament_index/resource_index/parent_prefix_path/group3_rwa5
+-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/environment/ament_prefix_path.sh
+-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/environment/path.sh
+-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/environment/path.dsv
+-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/local_setup.bash
+-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/local_setup.sh
+-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/local_setup.zsh
+-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/local_setup.dsv
+-- Installing: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/package.dsv
+-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/ament_index/resource_index/packages/group3_rwa5
+-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/cmake/group3_rwa5Config.cmake
+-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/cmake/group3_rwa5Config-version.cmake
+-- Up-to-date: /home/vboxuser/github/semester_1/programming/enpm702_group3/rwa5_3/rwa5_ws/install/group3_rwa5/share/group3_rwa5/package.xml
