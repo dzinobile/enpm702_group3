@@ -1,8 +1,0 @@
-your_node: # use actual node name here
-  ros__parameters:
-    use_sim_time: true
-    waypoint1: 'green'
-    waypoint2: 'red'
-    waypoint3: 'orange'
-    waypoint4: 'purple'
-    waypoint5: 'blue'

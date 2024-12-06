@@ -1,1 +1,0 @@
-mage_msgs/Part[] parts
