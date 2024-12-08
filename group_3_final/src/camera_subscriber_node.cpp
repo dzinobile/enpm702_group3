@@ -63,7 +63,7 @@ void CameraSubscriberNode::camera_callback(int camera_id, const mage_msgs::msg::
         for (const auto &part : parts_vector){
             if (static_cast<int>(part.color)==static_cast<int>(part_pose.part.color) && static_cast<int>(part.type)==static_cast<int>(part_pose.part.type))
             oss << "MATCH FOUND\n";
-            
+            target_publisher_->publish(part_pose);
         }
     }
 

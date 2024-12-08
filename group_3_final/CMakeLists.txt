@@ -32,7 +32,7 @@ link_directories(${gazebo_dev_LIBRARY_DIRS})
 include_directories(include/group_3_final)
 
 
-add_executable(final_project src/main.cpp src/parts_subscriber_node.cpp src/camera_subscriber_node.cpp)
+add_executable(final_project src/main.cpp src/parts_subscriber_node.cpp src/camera_subscriber_node.cpp src/transformation_node.cpp)
 ament_target_dependencies(final_project rclcpp mage_msgs sensor_msgs)
 
 install(TARGETS final_project DESTINATION lib/${PROJECT_NAME})
