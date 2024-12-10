@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>group3_final</name>
+  <version>0.0.1</version>
+  <description>
+    A ROS 2 package for navigation and task integration in group 3's final project.
+  </description>
+
+  <maintainer email="pritomgomes25@gmail.com">Pritom Gomes</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- Build tools -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Core dependencies -->
+  <depend>rclcpp</depend>
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_srvs</depend>
+
+  <!-- Gazebo and simulation -->
+  <depend>gazebo</depend>
+  <depend>gazebo_ros</depend>
+  <depend>xacro</depend>
+  <depend>image_transport</depend>
+  <depend>cv_bridge</depend>
+  <depend>camera_info_manager</depend>
+  <depend>gazebo_msgs</depend>
+
+  <!-- TF and transformations -->
+  <depend>tf2</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>orocos_kdl</depend>
+
+  <!-- Custom messages -->
+  <depend>mage_msgs</depend>
+
+  <!-- Launch system -->
+  <depend>launch</depend>
+  <depend>launch_ros</depend>
+
+  <!-- Testing dependencies -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+    <gazebo_ros gazebo_model_path="${prefix}/models" />
+  </export>
+</package>
+
