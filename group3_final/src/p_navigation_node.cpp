@@ -19,16 +19,29 @@ void NavigationNode::waypoint_callback(const mage_msgs::msg::PartPose::SharedPtr
 }
 
 void NavigationNode::odom_callback(const nav_msgs::msg::Odometry::SharedPtr msg) {
+    // Extract current position from odometry message
     current_x_ = msg->pose.pose.position.x;
     current_y_ = msg->pose.pose.position.y;
 
+    // Extract orientation (quaternion) and convert to roll, pitch, yaw
     tf2::Quaternion quaternion;
     tf2::fromMsg(msg->pose.pose.orientation, quaternion);
-    tf2::Matrix3x3(quaternion).getRPY(std::ignore, std::ignore, current_theta_);
 
+    // Declare non-const variables for roll, pitch, and yaw
+    double roll, pitch, yaw;
+
+    // Convert quaternion to roll, pitch, and yaw
+    tf2::Matrix3x3(quaternion).getRPY(roll, pitch, yaw);
+
+    // Use yaw as the robot's current orientation
+    current_theta_ = yaw;
+
+    RCLCPP_INFO(this->get_logger(), "Odometry updated: x=%.2f, y=%.2f, theta=%.2f",
+                current_x_, current_y_, current_theta_);
+
+    // Call the control loop to update navigation
     control_loop();
 }
-
 void NavigationNode::control_loop() {
     if (!waypoints_.empty()) {
         const auto &target = waypoints_.front();
